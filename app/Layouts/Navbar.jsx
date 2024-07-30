@@ -4,9 +4,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="w-full h-auto p-5 flex justify-center items-center">
-        <div className="flex justify-between items-center w-[90%] h-auto">
-            <Image width={500} height={500} alt="logo" src={'/Logo.png'} className="w-[5vw] h-auto"/>
+    <header className="w-full h-auto p-2 flex justify-center items-center">
+        <div className="flex justify-between items-center h-auto w-full px-20">
+            <Image width={500} height={500} alt="logo" src={'/Logo.png'} className="w-[6vw] h-auto"/>
             <ul className="text-[1.1vw] w-auto font-light flex justify-center gap-10 items-center">
                 <Link className="font-bold scale-125" href={'/'}>Home</Link>
                 <Link className="text-gray-400" href={'/'}>About Us</Link>
