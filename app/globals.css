@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: #faf8f3;
+}
+
 img{
     pointer-events: none;
 }
