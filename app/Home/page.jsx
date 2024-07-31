@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { RxArrowTopRight,RxStarFilled } from "react-icons/rx";
+import { FaStar } from "react-icons/fa6";
 
 const HomePage = () => {
     return (
@@ -80,31 +81,52 @@ const HomePage = () => {
             </section>
             <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
-                    <h1 className="font-bold sm:text-[35px] lg:w-full w-[50%] lg:text-[45px] text-[4vw]">What Our <span className="relative">Lovely <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> Clients Say</h1>
+                    <h1 className="font-bold sm:text-[35px] lg:w-full w-[50%] lg:text-[45px] text-[4vw]">What Our <span className="relative">Lovely <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex"/> Clients Say</h1>
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">We recently heard from Haining Wei, who started teaching with Swing in the spring of 2022. Below, she shares her story of how she was able to get into the classroom quickly.</p>
                     <Image src={'/Lines.png'} alt="lines" className="w-[10vw] lg:w-[90px] lg:hidden h-auto absolute right-0 top-[9vw]" width={400} height={400} />
                 </div>
-                <div className="w-full flex h-auto justify-between items-center">
-                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
+                <div className="w-full sm:flex-col 2lg:justify-center 2lg:gap-5 2lg:flex-wrap flex h-auto justify-between items-center">
+                    <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
-                        {/* <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
-                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
-                        </div> */}
+                        <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
+                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
+                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] text-[#FF9D04] flex justify-center items-start gap-3">
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                        </div>
+                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2.2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
                     </div>
-                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
+                    <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
-                        {/* <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
-                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
-                        </div> */}
+                        <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
+                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
+                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] text-[#FF9D04] flex justify-center items-start gap-3">
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                        </div>
+                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2.2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
                     </div>
-                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
+                    <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
-                        {/* <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
-                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
-                        </div> */}
+                        <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
+                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
+                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] text-[#FF9D04] flex justify-center items-start gap-3">
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                                <FaStar/>
+                            </div>
+                        </div>
+                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2.2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
                     </div>
                 </div>
             </section>
