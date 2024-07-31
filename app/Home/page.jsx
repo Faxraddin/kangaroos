@@ -29,14 +29,14 @@ const HomePage = () => {
                 </div>
                 <Image className="w-[50%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/Hero.svg'} alt="hero img 1" />
             </section>
-            <section className="flex-col lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
+            <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
                     <h1 className="font-bold sm:text-[35px] lg:w-full w-[50%] lg:text-[45px] text-[4vw]">An <span className="relative">Easier <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> Way to be Sub and Find Sub</h1>
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">When schools and districts have reliable access to substitute teachers and subs have the freedom to choose what and when they teach, more classes are covered and student learning stays on track.</p>
                     <Image src={'/Curve2.png'} alt="curve2" className="w-[10vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute left-[40%] top-[9vw]" width={400} height={400} />
                 </div>
-                <div className="w-full 2lg:justify-center 2lg:flex-wrap flex h-auto justify-between items-center">
-                    <div className="w-[31%] 2lg:w-[50%] h-auto relative">
+                <div className="w-full sm:gap-3 2lg:justify-center 2lg:flex-wrap flex h-auto justify-between items-center">
+                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
                             <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
@@ -44,7 +44,7 @@ const HomePage = () => {
                         </div>
                         <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] text-[#FF9D04] absolute bottom-[2vw] right-[2vw]" />
                     </div>
-                    <div className="w-[31%] 2lg:w-[50%] h-auto relative">
+                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h4.svg'} width={2000} height={2000} alt="h4" />
                         <div className="absolute w-full sm:bottom-[3vw] sm:left-[4vw] flex flex-col gap-2 h-auto left-10 bottom-8">
                             <h1 className="text-black 2lg:text-[4vw] w-[95%] text-[2.4vw] font-semibold">A better way to <span className="text-[#FF9D04]">connect</span> subs and schools</h1>
@@ -52,7 +52,7 @@ const HomePage = () => {
                         </div>
                         <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:top-[3.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:top-[4.5vw] text-[#FF9D04] absolute top-[2.5vw] right-[2vw]" />
                     </div>
-                    <div className="w-[31%] 2lg:w-[50%] h-auto relative">
+                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-full sm:top-[3vw] sm:left-[3vw] flex flex-col gap-2 h-auto left-8 top-8">
                             <h1 className="text-black 2lg:text-[4vw] w-[95%] text-[2.4vw] font-semibold">Student learning <span className="text-[#FF9D04]">on track </span>stays to meet target</h1>
