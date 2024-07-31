@@ -78,6 +78,16 @@ const HomePage = () => {
                     <Image className="w-[100%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />
                 </div>
             </section>
+            <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
+                <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
+                    <h1 className="font-bold sm:text-[35px] lg:w-full w-[50%] lg:text-[45px] text-[4vw]">What Our <span className="relative">Lovely <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> Clients Say</h1>
+                    <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">We recently heard from Haining Wei, who started teaching with Swing in the spring of 2022. Below, she shares her story of how she was able to get into the classroom quickly.</p>
+                    <Image src={'/Lines.png'} alt="lines" className="w-[10vw] lg:w-[90px] lg:hidden h-auto absolute right-0 top-[9vw]" width={400} height={400} />
+                </div>
+                <div className="w-full flex h-auto justify-center items-center">
+                    
+                </div>
+            </section>
         </div>
     )
 }
