@@ -130,6 +130,10 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
+            <section className="w-full relative h-auto flex justify-center items-center">
+                <Image className="w-full h-auto" width={1000} height={1000} alt="last" src={'/Home/Last.svg'}/>
+                <RxArrowTopRight className="text-[8vw] text-[#FF9D04] absolute top-[1.7vw] right-[2.7vw]" />
+            </section>
         </div>
     )
 }
