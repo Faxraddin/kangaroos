@@ -84,8 +84,28 @@ const HomePage = () => {
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">We recently heard from Haining Wei, who started teaching with Swing in the spring of 2022. Below, she shares her story of how she was able to get into the classroom quickly.</p>
                     <Image src={'/Lines.png'} alt="lines" className="w-[10vw] lg:w-[90px] lg:hidden h-auto absolute right-0 top-[9vw]" width={400} height={400} />
                 </div>
-                <div className="w-full flex h-auto justify-center items-center">
-                    
+                <div className="w-full flex h-auto justify-between items-center">
+                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
+                        <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
+                        {/* <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
+                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
+                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
+                        </div> */}
+                    </div>
+                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
+                        <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
+                        {/* <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
+                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
+                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
+                        </div> */}
+                    </div>
+                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
+                        <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
+                        {/* <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
+                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
+                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
+                        </div> */}
+                    </div>
                 </div>
             </section>
         </div>
