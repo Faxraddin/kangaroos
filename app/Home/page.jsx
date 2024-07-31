@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { RxArrowTopRight } from "react-icons/rx";
+import { RxArrowTopRight,RxStarFilled } from "react-icons/rx";
 
 const HomePage = () => {
     return (
@@ -55,11 +55,27 @@ const HomePage = () => {
                     <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-full sm:top-[3vw] sm:left-[3vw] flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] w-[95%] text-[2.4vw] font-semibold">Student learning <span className="text-[#FF9D04]">on track </span>stays to meet target</h1>
+                            <h1 className="text-black 2lg:text-[4vw] w-[90%] text-[2.4vw] font-semibold">Student learning <span className="text-[#FF9D04]">on track </span>stays to meet target</h1>
                             <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
                         </div>
                         <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] text-[#FF9D04] absolute bottom-[2vw] right-[2vw]" />
                     </div>
+                </div>
+            </section>
+            <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
+                <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
+                    <div className="font-bold sm:flex-wrap sm:text-[35px] lg:flex lg:justify-center sm:justify-start lg:w-full w-[50%] lg:text-[45px] text-[4vw]">
+                        <div className="flex sm:flex-wrap items-center gap-3">
+                            Why <span className="relative">Choose <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-3 right-0 h-auto" src={'/Underline.png'} /></span> 
+                            <div className="flex sm:flex-wrap items-center gap-3"><span className="flex items-center gap-2">Our <RxStarFilled className="text-[#FF9D04] text-[3vw"/> </span> </div>
+                        </div>
+                        Services
+                    </div>
+                    <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators.</p>
+                    <Image src={'/Curve3.png'} alt="curve3" className="w-[10vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute right-0 top-[9vw]" width={400} height={400} />
+                </div>
+                <div className="w-full flex h-auto justify-center items-center">
+                    
                 </div>
             </section>
         </div>
