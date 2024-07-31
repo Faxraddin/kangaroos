@@ -62,7 +62,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
+            <section className="flex-col sm:gap-5 gap-10 big:gap-40 w-full h-auto flex justify-center items-center">
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
                     <div className="font-bold sm:flex-wrap sm:text-[35px] lg:flex lg:justify-center sm:justify-start lg:w-full w-[50%] lg:text-[45px] text-[4vw]">
                         <div className="flex sm:flex-wrap items-center gap-3">
@@ -75,7 +75,7 @@ const HomePage = () => {
                     <Image src={'/Curve3.png'} alt="curve3" className="w-[10vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute right-0 top-[9vw]" width={400} height={400} />
                 </div>
                 <div className="w-full flex h-auto justify-center items-center">
-                    
+                    <Image className="w-[100%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />
                 </div>
             </section>
         </div>
