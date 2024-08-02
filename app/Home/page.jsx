@@ -11,7 +11,7 @@ const HomePage = () => {
                     <div className="h-auto lg:w-full sm:text-left sm:items-start sm:justify-start lg:justify-center lg:items-center lg:text-center lg:gap-5 w-full flex-col flex">
                         <h1 className="font-bold lg:text-[45px] text-[6vw]">Keep <span className="relative">Learning <Image alt="underline" width={400} height={400} className="w-[30vw] sm:w-[230px] absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex"/> on Track</h1>
                         <p className="text-[1.3vw] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400 w-[80%]">When schools and districts have reliable access to substitute teachers and subs have the freedom to choose what and when they teach.</p>
-                        <button className="yellow sm:w-full lg:text-[18px] lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px]">Get Started</button>
+                        <button className="sm:w-full lg:text-[18px] lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px] btn-animation">Get Started</button>
                     </div>
                     <div className="w-full h-auto gap-3 flex">
                         <div className="flex justify-end relative items-end w-[50%] h-auto">
