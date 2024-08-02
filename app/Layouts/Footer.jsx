@@ -18,7 +18,7 @@ const Footer = () => {
           <Link className="text-gray-400" href={'/'}>Pricing</Link>
           <Link className="text-gray-400" href={'/'}>Contact Us</Link>
         </ul>
-        <button className="bg-[#FF9D04] sm:px-0 sm:w-full lg:text-[18px] lg:mt-0 mt-5 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
+        <button className="yellow sm:px-0 sm:w-full lg:text-[18px] lg:mt-0 mt-5 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
       </div>
       <div className="w-full sm:flex-col sm:gap-5 sm:items-start h-auto flex justify-between items-center">
         <span className="text-gray-400 lg:text-[16px] text-[1.3vw]">@Copyright 2024. All Right Reserved</span>

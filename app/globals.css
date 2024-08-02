@@ -9,3 +9,11 @@ body{
 img{
     pointer-events: none;
 }
+
+.yellow{
+    background-color: #FDC110;
+}
+
+.yellow-text{
+    color: #FDC110;
+}

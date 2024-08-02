@@ -11,7 +11,7 @@ const HomePage = () => {
                     <div className="h-auto lg:w-full sm:text-left sm:items-start sm:justify-start lg:justify-center lg:items-center lg:text-center lg:gap-5 w-full flex-col flex">
                         <h1 className="font-bold lg:text-[45px] text-[6vw]">Keep <span className="relative">Learning <Image alt="underline" width={400} height={400} className="w-[30vw] sm:w-[230px] absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex"/> on Track</h1>
                         <p className="text-[1.3vw] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400 w-[80%]">When schools and districts have reliable access to substitute teachers and subs have the freedom to choose what and when they teach.</p>
-                        <button className="bg-[#FF9D04] sm:w-full lg:text-[18px] lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px]">Get Started</button>
+                        <button className="yellow sm:w-full lg:text-[18px] lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px]">Get Started</button>
                     </div>
                     <div className="w-full h-auto gap-3 flex">
                         <div className="flex justify-end relative items-end w-[50%] h-auto">
@@ -24,7 +24,7 @@ const HomePage = () => {
                         <div className="w-[50%] relative h-auto">
                             <Image className="w-[100%] h-auto" src={'/Home/h2.svg'} width={2000} height={2000} alt="h2" />
                             <p className="text-[1.2vw] lg:text-[3vw] sm:bottom-[2vw] font-bold w-[80%] left-3 bottom-6 absolute">Transforming schools <br /> and substitute <br /> teachers</p>
-                            <RxArrowTopRight className="text-[4vw] lg:text-[8vw] lg:top-[2.5vw] lg:right-[3.5vw] text-[#FF9D04] absolute top-[1vw] right-[1.7vw]" />
+                            <RxArrowTopRight className="text-[4vw] lg:text-[8vw] lg:top-[2.5vw] lg:right-[3.5vw] yellow-text absolute top-[1vw] right-[1.7vw]" />
                         </div>
                     </div>
                 </div>
@@ -40,26 +40,26 @@ const HomePage = () => {
                     <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="text-[#FF9D04]">disrupt</span> student <br/> learning</h1>
+                            <h1 className="text-black 2lg:text-[4vw] text-[2.4vw] font-semibold">Teacher absences <span className="yellow-text">disrupt</span> student <br/> learning</h1>
                             <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
                         </div>
-                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] text-[#FF9D04] absolute bottom-[2vw] right-[2vw]" />
+                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] yellow-text absolute bottom-[2vw] right-[2vw]" />
                     </div>
                     <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h4.svg'} width={2000} height={2000} alt="h4" />
                         <div className="absolute w-full sm:bottom-[3vw] sm:left-[4vw] flex flex-col gap-2 h-auto left-10 bottom-8">
-                            <h1 className="text-black 2lg:text-[4vw] w-[95%] text-[2.4vw] font-semibold">A better way to <span className="text-[#FF9D04]">connect</span> subs and schools</h1>
+                            <h1 className="text-black 2lg:text-[4vw] w-[95%] text-[2.4vw] font-semibold">A better way to <span className="yellow-text">connect</span> subs and schools</h1>
                             <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
                         </div>
-                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:top-[3.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:top-[4.5vw] text-[#FF9D04] absolute top-[2.5vw] right-[2vw]" />
+                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:top-[3.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:top-[4.5vw] yellow-text absolute top-[2.5vw] right-[2vw]" />
                     </div>
                     <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-full sm:top-[3vw] sm:left-[3vw] flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] w-[90%] text-[2.4vw] font-semibold">Student learning <span className="text-[#FF9D04]">on track </span>stays to meet target</h1>
+                            <h1 className="text-black 2lg:text-[4vw] w-[90%] text-[2.4vw] font-semibold">Student learning <span className="yellow-text">on track </span>stays to meet target</h1>
                             <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">When schools and districts have reliable access to teacher</p>
                         </div>
-                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] text-[#FF9D04] absolute bottom-[2vw] right-[2vw]" />
+                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] yellow-text absolute bottom-[2vw] right-[2vw]" />
                     </div>
                 </div>
             </section>
@@ -68,7 +68,7 @@ const HomePage = () => {
                     <div className="font-bold sm:flex-wrap sm:text-[35px] lg:flex lg:justify-center sm:justify-start lg:w-full w-[50%] lg:text-[45px] text-[4vw]">
                         <div className="flex sm:flex-wrap items-center gap-3">
                             Why <span className="relative">Choose <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-3 right-0 h-auto" src={'/Underline.png'} /></span> 
-                            <div className="flex sm:flex-wrap items-center gap-3"><span className="flex items-center gap-2">Our <RxStarFilled className="text-[#FF9D04] text-[3vw"/> </span> </div>
+                            <div className="flex sm:flex-wrap items-center gap-3"><span className="flex items-center gap-2">Our <RxStarFilled className="yellow-text text-[3vw"/> </span> </div>
                         </div>
                         Services
                     </div>
@@ -90,7 +90,7 @@ const HomePage = () => {
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
                             <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
-                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] text-[#FF9D04] flex justify-center items-start gap-3">
+                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
                                 <FaStar/>
                                 <FaStar/>
                                 <FaStar/>
@@ -104,7 +104,7 @@ const HomePage = () => {
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
                             <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
-                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] text-[#FF9D04] flex justify-center items-start gap-3">
+                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
                                 <FaStar/>
                                 <FaStar/>
                                 <FaStar/>
@@ -118,7 +118,7 @@ const HomePage = () => {
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
                             <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
-                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] text-[#FF9D04] flex justify-center items-start gap-3">
+                            <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
                                 <FaStar/>
                                 <FaStar/>
                                 <FaStar/>
@@ -132,9 +132,9 @@ const HomePage = () => {
             </section>
             <section className="w-full md:hidden relative h-auto flex justify-center items-center">
                 <Image className="w-full h-auto" width={1000} height={1000} alt="last" src={'/Home/Last.svg'}/>
-                <RxArrowTopRight className="text-[8vw] text-[#FF9D04] absolute top-[1.7vw] right-[2.7vw]" />
+                <RxArrowTopRight className="text-[8vw] yellow-text absolute top-[1.7vw] right-[2.7vw]" />
                 <div className="flex flex-col gap-0 absolute top-[7vw] left-[30%]">
-                    <h1 className="text-[#FF9D04] font-bold text-[4vw]">Get In Touch</h1>
+                    <h1 className="yellow-text font-bold text-[4vw]">Get In Touch</h1>
                     <p className="font-bold text-[3vw] text-white w-[75%]">Join our community of native speakers and your child strong english!</p>
                 </div>
             </section>
