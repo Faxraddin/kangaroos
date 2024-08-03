@@ -23,9 +23,9 @@ const Footer = () => {
       <div className="w-full sm:flex-col sm:gap-5 sm:items-start h-auto flex justify-between items-center">
         <span className="text-gray-400 lg:text-[16px] text-[1.3vw]">@Copyright 2024. All Right Reserved</span>
         <div className="text-[2.3vw] flex justify-center gap-11 items-center">
-          <span className="text-white lg:text-[26px] rounded-full bg-[#2a7c74] p-3"><LuInstagram/></span>
-          <span className="text-white lg:text-[26px] rounded-full bg-[#2a7c74] p-3"><FaFacebook /></span>
-          <span className="text-white lg:text-[26px] rounded-full bg-[#2a7c74] p-3"><FaLinkedin /></span>
+          <span className="text-white lg:text-[26px] rounded-full yellow p-3"><LuInstagram/></span>
+          <span className="text-white lg:text-[26px] rounded-full yellow p-3"><FaFacebook /></span>
+          <span className="text-white lg:text-[26px] rounded-full yellow p-3"><FaLinkedin /></span>
         </div>
       </div>
     </footer>

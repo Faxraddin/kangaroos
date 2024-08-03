@@ -17,8 +17,8 @@ const HomePage = () => {
                         <div className="flex justify-end relative items-end w-[50%] h-auto">
                             <Image className="w-[auto] -left-5 bottom-2 absolute h-[90%]" src={'/Home/Woman.svg'} width={2000} height={2000} alt="h1" />
                             <div className="p-5 sm:p-3 rounded-[20px] bg-[#EEEEED] w-[70%] flex flex-col justify-between h-full">
-                                <h1 className="font-bold sm:ml-0 lg:ml-[5vw] lg:text-[4vw] text-[1.5vw]">Best <span className="text-[#337A74]">Teachers</span> Worldwide</h1>
-                                <p className="flex flex-col text-[0.7vw] lg:text-[1.5vw] text-gray-400 w-full justify-end items-end"><span className="font-bold text-[#337A74] lg:text-[4vw] text-[2vw]">21+</span>experts already join us</p>
+                                <h1 className="font-bold sm:ml-0 lg:ml-[5vw] lg:text-[4vw] text-[1.5vw]">Best <span className="yellow-text">Teachers</span> Worldwide</h1>
+                                <p className="flex flex-col text-[0.7vw] lg:text-[1.5vw] text-gray-400 w-full justify-end items-end"><span className="font-bold yellow-text lg:text-[4vw] text-[2vw]">21+</span>experts already join us</p>
                             </div>
                         </div>
                         <div className="w-[50%] relative h-auto">
@@ -75,15 +75,15 @@ const HomePage = () => {
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators.</p>
                     <Image src={'/Curve3.png'} alt="curve3" className="w-[10vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute right-0 top-[9vw]" width={400} height={400} />
                 </div>
-                <div className="w-full flex h-auto justify-center items-center">
-                    <Image className="w-[100%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />
+                <div className="w-full flex h-auto justify-start items-center">
+                    <Image className="w-[90%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />
                 </div>
             </section>
             <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
                     <h1 className="font-bold sm:text-[35px] lg:w-full w-[50%] lg:text-[45px] text-[4vw]">What Our <span className="relative">Lovely <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex"/> Clients Say</h1>
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">We recently heard from Haining Wei, who started teaching with Swing in the spring of 2022. Below, she shares her story of how she was able to get into the classroom quickly.</p>
-                    <Image src={'/Lines.png'} alt="lines" className="w-[10vw] lg:w-[90px] lg:hidden h-auto absolute right-0 top-[9vw]" width={400} height={400} />
+                    <Image src={'/Lines.png'} alt="lines" className="w-[15vw] -rotate-12 lg:w-[110px] lg:hidden h-auto absolute right-0 top-[12vw]" width={400} height={400} />
                 </div>
                 <div className="w-full sm:flex-col 2lg:justify-center 2lg:gap-5 2lg:flex-wrap flex h-auto justify-between items-center">
                     <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
