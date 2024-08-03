@@ -34,7 +34,7 @@ const HomePage = () => {
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
                     <h1 className="font-bold sm:text-[35px] lg:w-full w-[50%] lg:text-[45px] text-[4vw]">An <span className="relative">Easier <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> Way to be Sub and Find Sub</h1>
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">When schools and districts have reliable access to substitute teachers and subs have the freedom to choose what and when they teach, more classes are covered and student learning stays on track.</p>
-                    <Image src={'/Curve2.png'} alt="curve2" className="w-[10vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute left-[40%] top-[9vw]" width={400} height={400} />
+                    <Image src={'/Curve.svg'} alt="curve2" className="w-[10vw] scale-[-1] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute left-[40%] top-[9vw]" width={400} height={400} />
                 </div>
                 <div className="w-full sm:gap-3 2lg:justify-center 2lg:flex-wrap flex h-auto justify-between items-center">
                     <div className="w-[31%] 2lg:w-[48%] h-auto relative">
@@ -73,7 +73,7 @@ const HomePage = () => {
                         Services
                     </div>
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[15px] text-gray-400">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators.</p>
-                    <Image src={'/Curve3.png'} alt="curve3" className="w-[10vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute right-0 top-[9vw]" width={400} height={400} />
+                    <Image src={'/Curve2.svg'} alt="curve3" className="w-[12vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute right-0 top-[11vw]" width={400} height={400} />
                 </div>
                 <div className="w-full flex h-auto justify-start items-center">
                     <Image className="w-[90%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />
