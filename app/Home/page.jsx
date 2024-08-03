@@ -130,14 +130,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="w-full md:hidden relative h-auto flex justify-center items-center">
-                <Image className="w-full h-auto" width={1000} height={1000} alt="last" src={'/Home/Last.svg'}/>
-                <RxArrowTopRight className="text-[8vw] yellow-text absolute top-[1.7vw] right-[2.7vw]" />
-                <div className="flex flex-col gap-0 absolute top-[7vw] left-[30%]">
-                    <h1 className="yellow-text font-bold text-[4vw]">Get In Touch</h1>
-                    <p className="font-bold text-[3vw] text-white w-[75%]">Join our community of native speakers and your child strong english!</p>
-                </div>
-            </section>
+            
         </div>
     )
 }
