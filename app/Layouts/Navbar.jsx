@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Button from "@/components/Button";
 
 const Navbar = () => {
   return (
@@ -14,7 +15,8 @@ const Navbar = () => {
                 <Link className="text-gray-400" href={'/'}>Pricing</Link>
                 <Link className="text-gray-400" href={'/'}>Contact Us</Link>
             </ul>
-            <button className="py-3 px-7 lg:hidden rounded-[10px] font-light border border-black text-[1vw]">Make Appointment</button>
+            <Button className="py-3 px-7 lg:hidden  text-[1vw]" text={'Start Now!'}/>
+            {/* <button className="py-3 px-7 lg:hidden rounded-[10px] font-light border border-black text-[1vw]">Make Appointment</button> */}
         </div>
     </header>
   )
