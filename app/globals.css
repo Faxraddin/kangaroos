@@ -1,9 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/kg-red-hands');
+@import url('https://fonts.cdnfonts.com/css/kg-blank-space-sketch');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   background-color: #faf8f3;
+}
+
+.Font1{
+  font-family: 'KG Red Hands', sans-serif;
+  font-family: 'KG Red Hands Outline', sans-serif;
+}
+
+.Font2{
+  font-family: 'KG Blank Space Sketch', sans-serif;
+  font-family: 'KG Blank Space Solid', sans-serif;
 }
 
 img {

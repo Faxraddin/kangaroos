@@ -2,7 +2,7 @@ import React from "react";
 
 const Button = ({text,className = ""}) => {
     return (
-            <div className="container-button">
+            <div className="container-button Font2">
                 <a href="#" className={`${className} button type--C`}>
                     <div className="button__line"></div>
                     <div className="button__line"></div>
