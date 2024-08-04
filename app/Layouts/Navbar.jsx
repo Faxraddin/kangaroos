@@ -21,7 +21,7 @@ const Navbar = () => {
                 <Link className={`${pathname==='/ContactUs' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/'}>Contact Us</Link>
             </ul>
             <Button className="py-3 px-7 lg:hidden  text-[1vw]" text={'Start Now!'}/>
-            {/* <button className="py-3 px-7 lg:hidden rounded-[10px] font-light border border-black text-[1vw]">Make Appointment</button> */}
+            
         </div>
     </header>
   )

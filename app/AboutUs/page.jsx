@@ -15,6 +15,10 @@ const AboutUs = () => {
                     <Image className="w-[65%] relative -top-[6vw] rounded-[15px] h-auto" alt="hero about us" width={500} height={500} src={'/About/Hero.png'}/>
                 </div>
             </section>
+
+            <section className="w-full h-auto border gap-10 flex justify-center flex-col items-center">
+                
+            </section>
         </div>
     )
 }
