@@ -89,7 +89,7 @@ const HomePage = () => {
                     <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
-                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
+                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[2vw] text-[1.7vw]">James Hoven</h2>
                             <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
                                 <FaStar/>
                                 <FaStar/>
@@ -98,12 +98,12 @@ const HomePage = () => {
                                 <FaStar/>
                             </div>
                         </div>
-                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2.2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
+                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
                     </div>
                     <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
-                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
+                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[2vw] text-[1.7vw]">James Hoven</h2>
                             <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
                                 <FaStar/>
                                 <FaStar/>
@@ -112,12 +112,12 @@ const HomePage = () => {
                                 <FaStar/>
                             </div>
                         </div>
-                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2.2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
+                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
                     </div>
                     <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
-                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[3vw] text-[1.7vw]">James Hoven</h2>
+                            <h2 className="font-semibold sm:text-[5vw] 2lg:text-[2vw] text-[1.7vw]">James Hoven</h2>
                             <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
                                 <FaStar/>
                                 <FaStar/>
@@ -126,7 +126,7 @@ const HomePage = () => {
                                 <FaStar/>
                             </div>
                         </div>
-                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2.2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
+                        <p className="w-[80%] sm:text-[4.5vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.2vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
                     </div>
                 </div>
             </section>
