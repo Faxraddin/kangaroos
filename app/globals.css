@@ -380,7 +380,7 @@ img {
 
 .line {
   fill: none;
-  stroke: #fdc110;
+  /* stroke: black; */
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;

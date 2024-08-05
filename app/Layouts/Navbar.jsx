@@ -2,12 +2,26 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Button from "@/components/Button";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const pathname = usePathname();
+  const [color, setColor] = useState('#f55712');
+
+  useEffect(() => {
+    switch (pathname) {
+      case '/':
+        setColor('#f55712');
+        break;
+      case '/AboutUs':
+        setColor('#6A2985');
+        break;
+      default:
+        setColor('#f55712'); 
+    }
+  }, [pathname]);
 
   return (
     <header className="w-full h-auto p-2 flex justify-center items-center">
@@ -21,13 +35,15 @@ const Navbar = () => {
           <Link className={`${pathname === '/ContactUs' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/'}>Contact Us</Link>
         </ul>
         <Button className="py-3 px-7 lg:hidden  text-[1vw]" text={'Start Now!'} />
-        <label className="hamburger hidden lg:flex">
-          <input type="checkbox"/>
+        <div className="w-auto h-auto hidden rounded-full p-2 yellow lg:flex">
+          <label className="hamburger">
+            <input type="checkbox" />
             <svg viewBox="0 0 32 32">
-              <path className="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
-              <path className="line" d="M7 16 27 16"></path>
+              <path className={`line line-top-bottom`} stroke={color} d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+              <path className={`line`} stroke={color} d="M7 16 27 16"></path>
             </svg>
-        </label>
+          </label>
+        </div>
       </div>
     </header>
   )

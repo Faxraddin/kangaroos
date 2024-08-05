@@ -20,7 +20,7 @@ const AboutUs = () => {
                 </div>
                 <div className="flex flex-col w-full justify-center items-center h-auto">
                     <h1 className="uppercase md:text-[13vw] text-[12vw]">Kangaroos</h1>
-                    <Image className="w-[65%] relative -top-[6vw] rounded-[15px] h-auto" alt="hero about us" width={500} height={500} src={'/About/Hero.png'} />
+                    <Image className="w-[65%] sm:w-[75%] sm:-top-[9vw] relative -top-[6vw] rounded-[15px] h-auto" alt="hero about us" width={500} height={500} src={'/About/Hero.png'} />
                 </div>
             </section>
 
