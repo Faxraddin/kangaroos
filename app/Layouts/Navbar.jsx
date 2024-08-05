@@ -35,7 +35,7 @@ const Navbar = () => {
           <Link className={`${pathname === '/ContactUs' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/'}>Contact Us</Link>
         </ul>
         <Button className="py-3 px-7 lg:hidden  text-[1vw]" text={'Start Now!'} />
-        <div className="w-auto h-auto hidden rounded-full p-2 yellow lg:flex">
+        <div className="w-auto h-auto hidden rounded-full p-3 sm:bg-transparent yellow lg:flex">
           <label className="hamburger">
             <input type="checkbox" />
             <svg viewBox="0 0 32 32">
