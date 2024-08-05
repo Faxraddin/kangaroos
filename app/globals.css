@@ -422,13 +422,13 @@ img {
 .slide-track {
   display: flex;
   width: calc(100% * 2);
-  animation: scrollLeft 20s linear infinite;
+  animation: scrollLeft 30s linear infinite;
 }
 
 .slide-track2 {
   display: flex;
   width: calc(100% * 2);
-  animation: scrollRight 20s linear infinite;
+  animation: scrollRight 30s linear infinite;
 }
 
 @keyframes scrollLeft {
@@ -451,7 +451,6 @@ img {
 
 .slide {
   flex: 0 0 auto; 
-  width: 33.3333%;
   display: flex;
   justify-content: center;
   align-items: center;

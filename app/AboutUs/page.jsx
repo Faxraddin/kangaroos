@@ -2,6 +2,14 @@ import Image from "next/image";
 import React from "react";
 
 const AboutUs = () => {
+    const facts = [
+        { id: 0, fact: '50+ Teachers' },
+        { id: 1, fact: '500+ Students' },
+        { id: 2, fact: 'Native Speakers' },
+        { id: 3, fact: '50+ Teachers' },
+        { id: 2, fact: 'Native Speakers' },
+        { id: 3, fact: '50+ Teachers' }
+    ]
     return (
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
             <section className="w-full sm:mt-5 h-auto gap-10 flex justify-center flex-col items-center">
@@ -17,53 +25,45 @@ const AboutUs = () => {
             </section>
 
             <section className="flex border-t border-b border-[#6A2985] flex-col w-full h-auto">
-                <div className="slider-container py-10">
+                <div className="slider-container sm:pb-0 lg:py-5 py-10">
                     <div className="slider">
                         <div className="slide-track">
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">50+ Teachers</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">500+ Students</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">Native Speakers</h1>
-                            </div>
+                            {facts.map((fact) => {
+                                return (
+                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    </div>
+                                )
+                            })}
                             {/* Repeat the slides to create the infinite effect */}
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">50+ Teachers</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">500+ Students</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">Native Speakers</h1>
-                            </div>
+                            {facts.map((fact) => {
+                                return (
+                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    </div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
-                <div className="slider-container py-10">
+                <div className="slider-container sm:pt-2 lg:py-5 py-10">
                     <div className="slider">
                         <div className="slide-track2">
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">50+ Teachers</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">500+ Students</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">Native Speakers</h1>
-                            </div>
+                            {facts.map((fact) => {
+                                return (
+                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    </div>
+                                )
+                            })}
                             {/* Repeat the slides to create the infinite effect */}
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">50+ Teachers</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">500+ Students</h1>
-                            </div>
-                            <div className="slide">
-                                <h1 className="text-[2vw] uppercase">Native Speakers</h1>
-                            </div>
+                            {facts.map((fact) => {
+                                return (
+                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    </div>
+                                )
+                            })}
                         </div>
                     </div>
                 </div>
