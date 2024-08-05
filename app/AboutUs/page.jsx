@@ -25,12 +25,12 @@ const AboutUs = () => {
             </section>
 
             <section className="flex border-t border-b border-[#6A2985] flex-col w-full h-auto">
-                <div className="slider-container sm:pb-0 lg:py-5 py-10">
+                <div className="slider-container sm:pb-0 lg:py-5 pt-10">
                     <div className="slider">
                         <div className="slide-track">
                             {facts.map((fact) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
@@ -38,7 +38,15 @@ const AboutUs = () => {
                             {/* Repeat the slides to create the infinite effect */}
                             {facts.map((fact) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    </div>
+                                )
+                            })}
+                            {/* Repeat the slides to create the infinite effect */}
+                            {facts.map((fact) => {
+                                return (
+                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
@@ -51,7 +59,7 @@ const AboutUs = () => {
                         <div className="slide-track2">
                             {facts.map((fact) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
@@ -59,13 +67,31 @@ const AboutUs = () => {
                             {/* Repeat the slides to create the infinite effect */}
                             {facts.map((fact) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[21%] sm:w-max sm:mx-5">
+                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    </div>
+                                )
+                            })}
+                            {/* Repeat the slides to create the infinite effect */}
+                            {facts.map((fact) => {
+                                return (
+                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                         </div>
                     </div>
+                </div>
+            </section>
+            <section className="w-full md:flex-col md:justify-center h-auto flex justify-between items-center">
+                <div className="w-[45%] md:w-full h-[38vw] lg:h-auto flex-col lg:gap-3 pb-3 flex justify-between items-start">
+                    <h1 className="Font2 md:text-[30px] text-[5vw]">Sign Up for a free lesson now!</h1>
+                    <p className="text-[2vw] md:text-[14px]">start now and see what suits your child the best!</p>
+                    <button className="btn-animation md:text-[14px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
+                </div>
+                <div className="w-[50%] md:w-full lg:h-auto h-[38vw] rounded-[15px]">
+                    <Image className="w-[100%] object-cover rounded-[15px] h-full" alt="hero about us" width={500} height={500} src={'/About/h2.svg'} />
                 </div>
             </section>
         </div>
