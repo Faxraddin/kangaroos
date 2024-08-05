@@ -16,7 +16,7 @@ const AboutUs = () => {
                 </div>
             </section>
 
-            <section className="w-full h-auto border gap-10 flex justify-center flex-col items-center">
+            <section className="w-full h-auto border gap-10 p-3 flex justify-center flex-col items-center">
                 
             </section>
         </div>
