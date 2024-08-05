@@ -31,6 +31,10 @@ img {
   color: #f55712;
 }
 
+.purple {
+  color: #6A2985;
+}
+
 .yellow-text {
   color: #fdc110;
 }
@@ -396,4 +400,59 @@ img {
 .hamburger input:checked + svg .line-top-bottom {
   stroke-dasharray: 20 300;
   stroke-dashoffset: -32.42;
+}
+
+/* slide animations */
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(100% * 2);
+  animation: scrollLeft 20s linear infinite;
+}
+
+.slide-track2 {
+  display: flex;
+  width: calc(100% * 2);
+  animation: scrollRight 20s linear infinite;
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(+50%);
+  }
+}
+
+.slide {
+  flex: 0 0 auto; 
+  width: 33.3333%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
