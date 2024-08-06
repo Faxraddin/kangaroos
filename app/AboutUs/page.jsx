@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { RxArrowTopRight } from "react-icons/rx";
+import { PiShootingStarFill } from "react-icons/pi";
 
 const AboutUs = () => {
     const facts = [
@@ -20,8 +21,8 @@ const AboutUs = () => {
         { id: 2, question: 'question 1', answer: 'askjndakjsndajndakjsdanssladnlaskdnas', color: '#fdc110' }
     ]
 
-    const [opened,setOpened] = useState(false); 
-    const [Id,setId] = useState(0); 
+    const [opened, setOpened] = useState(false);
+    const [Id, setId] = useState(0);
 
     return (
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
@@ -118,17 +119,41 @@ const AboutUs = () => {
                 <div className="w-full pt-5 sm:pt-0 h-auto flex flex-col justify-center items-center">
                     {questions.map((question) => {
                         return (
-                            <div key={question.id} onClick={()=>{setOpened(!opened);setId(question.id)}} className={`flex sm:py-4 sm:gap-2 cursor-pointer flex-col justify-center gap-5 items-center w-full h-auto py-8 border-b`} style={{borderColor:question.color}}>
+                            <div key={question.id} onClick={() => { setOpened(!opened); setId(question.id) }} className={`flex sm:py-4 sm:gap-2 cursor-pointer flex-col justify-center gap-5 items-center w-full h-auto py-8 border-b`} style={{ borderColor: question.color }}>
                                 <div className="w-full h-auto flex justify-between items-center">
                                     <h1 className="text-[2.5vw] sm:w-[80%] sm:text-[20px] lg:text-[25px]">{question.question}</h1>
-                                    <a style={{background:question.color}} className="rounded-full p-2"><RxArrowTopRight className="text-[3.5vw] sm:text-[20px] lg:text-[28px] text-white"/></a>
+                                    <a style={{ background: question.color }} className="rounded-full p-2"><RxArrowTopRight className="text-[3.5vw] sm:text-[20px] lg:text-[28px] text-white" /></a>
                                 </div>
-                                {opened && Id === question.id ? 
-                                <p className="w-full text-left text-[1.3vw] lg:text-[18px] sm:text-[12px]">{question.answer}</p>
-                                :''}
+                                {opened && Id === question.id ?
+                                    <p className="w-full text-left text-[1.3vw] lg:text-[18px] sm:text-[12px]">{question.answer}</p>
+                                    : ''}
                             </div>
                         )
                     })}
+                </div>
+            </section>
+
+            <section className="flex-col gap-10 sm:gap-5 w-full h-auto flex justify-center items-center">
+                <h1 className="font-bold Font1 sm:text-[25px] uppercase lg:w-full w-[50%] lg:text-[45px] text-[3.5vw]">Why Choose Us ?</h1>
+                <div className="flex justify-between lg:gap-5 lg:flex-col lg:justify-center items-center w-full h-auto">
+                    <div className="w-[30%] sm:p-5 lg:w-[100%] text-white bg-[#f55712] flex rounded-[10px] flex-col justify-center items-center gap-5 h-auto p-10">
+                        <PiShootingStarFill className="text-[5vw] lg:text-[42px] sm:text-[36px]" />
+                        <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Comprehensive Growth</h1>
+                        <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"Comprehensive growth encompasses the holistic development"</p>
+                    </div>
+                    <div className="w-[30%] lg:gap-3 lg:w-[100%] h-auto justify-center items-center flex flex-col gap-5">
+                        <button className="btn-animation py-3 lg:text-[18px] sm:text-[13px] lg:w-full px-20 text-[1.3vw] w-[80%] text-white rounded-t-[20px]">Get Started</button>
+                        <div className="text-white sm:p-5 bg-[#fdc110] w-full flex rounded-[10px] flex-col justify-center items-center gap-5 h-auto p-10">
+                            <PiShootingStarFill className="text-[5vw] lg:text-[42px] sm:text-[36px]" />
+                            <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Comprehensive Growth</h1>
+                            <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"Comprehensive growth encompasses the holistic development"</p>
+                        </div>
+                    </div>
+                    <div className="w-[30%] lg:w-[100%] sm:p-5 text-white bg-[#6A2985] flex rounded-[10px] flex-col justify-center items-center gap-5 h-auto p-10">
+                        <PiShootingStarFill className="text-[5vw] lg:text-[42px] sm:text-[36px]" />
+                        <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Comprehensive Growth</h1>
+                        <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"Comprehensive growth encompasses the holistic development"</p>
+                    </div>
                 </div>
             </section>
 
