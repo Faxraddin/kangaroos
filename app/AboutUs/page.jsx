@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
+
 import { RxArrowTopRight } from "react-icons/rx";
 import { PiShootingStarFill } from "react-icons/pi";
+import { AiFillStar } from "react-icons/ai";
+import { FaHandPointLeft,FaHandPointRight } from "react-icons/fa";
 
 const AboutUs = () => {
     const facts = [
@@ -24,6 +27,10 @@ const AboutUs = () => {
     const [opened, setOpened] = useState(false);
     const [Id, setId] = useState(0);
 
+    const teachers = [
+        { id: 0, name: 'Hannah', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'About/T.png', role: 'English Teacher' }
+    ]
+
     return (
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
             <section className="w-full sm:mt-5 h-auto gap-10 flex justify-center flex-col items-center">
@@ -42,7 +49,7 @@ const AboutUs = () => {
                 <div className="slider-container sm:pb-0 lg:py-5 pt-10">
                     <div className="slider">
                         <div className="slide-track">
-                            {facts.map((fact,index) => {
+                            {facts.map((fact, index) => {
                                 return (
                                     <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
@@ -50,7 +57,7 @@ const AboutUs = () => {
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact,index) => {
+                            {facts.map((fact, index) => {
                                 return (
                                     <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
@@ -58,7 +65,7 @@ const AboutUs = () => {
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact,index) => {
+                            {facts.map((fact, index) => {
                                 return (
                                     <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
@@ -71,7 +78,7 @@ const AboutUs = () => {
                 <div className="slider-container sm:pt-2 lg:py-5 py-10">
                     <div className="slider">
                         <div className="slide-track2">
-                            {facts.map((fact,index) => {
+                            {facts.map((fact, index) => {
                                 return (
                                     <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
@@ -79,7 +86,7 @@ const AboutUs = () => {
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact,index) => {
+                            {facts.map((fact, index) => {
                                 return (
                                     <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
@@ -87,7 +94,7 @@ const AboutUs = () => {
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact,index) => {
+                            {facts.map((fact, index) => {
                                 return (
                                     <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
@@ -155,6 +162,34 @@ const AboutUs = () => {
                         <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"Comprehensive growth encompasses the holistic development"</p>
                     </div>
                 </div>
+            </section>
+
+            <section className="w-full bg-[#eeeded] rounded-[10px] flex justify-center items-center h-auto">
+                {teachers.map((teacher, index) => {
+                    return (
+                        <div key={index} className="w-full md:p-3 md:pt-3 md:flex-col gap-5 p-14 bg-[#eeeded] rounded-[10px] h-auto flex justify-between items-center">
+                            <div className="w-[40%] md:w-full md:h-auto h-[30vw] flex justify-between items-center">
+                                <Image className="w-full h-auto object-cover rounded-[10px]" alt="teacher" src={`/${teacher.img}`} width={500} height={500} />
+                            </div>
+                            <div className="w-[55%] md:gap-3 md:w-full md:h-auto h-[30vw] items-start justify-center gap-5 flex flex-col">
+                                <h1 className="flex md:text-[20px] md:justify-between md:w-full justify-center items-center gap-5 text-[2vw]"><div className="flex md:text-[30px] text-[2.5vw] justify-center items-center gap-3 yellow-text"><AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /> <AiFillStar /></div> 5.0</h1>
+                                <p className="text-[1.2vw] md:text-[13px] text-gray-400">{teacher.text}</p>
+                                <div className="flex flex-col gap-1">
+                                    <h1 className="text-[3vw] md:text-[29px] Font1">{teacher.name}</h1>
+                                    <span className="text-[1.2vw] md:text-[13px] text-gray-400">{teacher.role}</span>
+                                </div>
+                                <div className="w-full text-white gap-5 justify-end items-end flex h-suto">
+                                    <span className="bg-[#f55712] md:p-3 cursor-pointer rounded-full p-5">
+                                        <FaHandPointLeft className="text-[3vw] md:text-[26px]"/>
+                                    </span>
+                                    <span className="rounded-full md:p-3 cursor-pointer yellow p-5">
+                                        <FaHandPointRight className="text-[3vw] md:text-[26px]"/>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    )
+                })}
             </section>
 
         </div>
