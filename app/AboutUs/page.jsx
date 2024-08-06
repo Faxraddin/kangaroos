@@ -42,25 +42,25 @@ const AboutUs = () => {
                 <div className="slider-container sm:pb-0 lg:py-5 pt-10">
                     <div className="slider">
                         <div className="slide-track">
-                            {facts.map((fact) => {
+                            {facts.map((fact,index) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact) => {
+                            {facts.map((fact,index) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact) => {
+                            {facts.map((fact,index) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
@@ -71,25 +71,25 @@ const AboutUs = () => {
                 <div className="slider-container sm:pt-2 lg:py-5 py-10">
                     <div className="slider">
                         <div className="slide-track2">
-                            {facts.map((fact) => {
+                            {facts.map((fact,index) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact) => {
+                            {facts.map((fact,index) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
-                            {facts.map((fact) => {
+                            {facts.map((fact,index) => {
                                 return (
-                                    <div key={fact.id} className="slide w-[15%] sm:w-max sm:mx-5">
+                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
                                         <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
                                     </div>
                                 )
