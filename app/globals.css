@@ -27,6 +27,11 @@ img {
   background-color: #fdc110;
 }
 
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
 .orange {
   color: #f55712;
 }

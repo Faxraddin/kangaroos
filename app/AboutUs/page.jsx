@@ -110,10 +110,11 @@ const AboutUs = () => {
                 <div className="w-[45%] md:w-full h-[38vw] lg:h-auto flex-col lg:gap-3 pb-3 flex justify-between items-start">
                     <h1 className="md:text-[30px] text-[4.5vw] Font1">Sign Up for a free lesson now!</h1>
                     <p className="text-[2vw] md:text-[13px] text-gray-400">start now and see what suits your child the best!</p>
-                    <button className="btn-animation md:text-[13px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
+                    <button className="btn-animation md:hidden md:text-[13px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
                 </div>
-                <div className="w-[50%] md:w-full lg:h-auto h-[38vw] rounded-[15px]">
-                    <Image className="w-[100%] object-cover rounded-[15px] h-full" alt="hero about us" width={500} height={500} src={'/About/h2.svg'} />
+                <div className="w-[50%] md:w-full md:flex md:gap-4 lg:h-auto h-[38vw] rounded-[15px]">
+                    <button className="btn-animation w-[15%] items-center text-center justify-center vertical-text md:flex hidden text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Get Started</button>
+                    <Image className="w-[100%] md:rounded-l-[0px] md:w-[80%] object-cover rounded-[15px] h-full" alt="hero about us" width={500} height={500} src={'/About/h2.svg'} />
                 </div>
             </section>
 
