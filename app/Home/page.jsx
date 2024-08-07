@@ -9,13 +9,13 @@ const HomePage = () => {
             <section className="lg:flex-col w-full h-auto flex justify-between items-center">
                 <div className="lg:w-full lg:gap-5 flex gap-[2.5vw] flex-col h-auto w-1/2">
                     <div className="h-auto lg:w-full sm:text-left sm:items-start sm:justify-start lg:justify-center lg:items-center lg:text-center lg:gap-5 w-full flex-col flex">
-                        <h1 className="font-bold sm:text-[35px] lg:text-[45px] text-[5.2vw]">Keep <span className="relative">Learning <Image alt="underline" width={400} height={400} className="w-[30vw] sm:w-[230px] absolute sm:-bottom-3 -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex"/> on Track</h1>
-                        <p className="text-[1.3vw] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400 w-[80%]">When schools and districts have reliable access to substitute teachers and subs have the freedom to choose what and when they teach.</p>
+                        <h1 className="font-bold sm:text-[35px] lg:text-[45px] text-[4.4vw]">Where <span className="relative">English <Image alt="underline" width={400} height={400} className="w-[30vw] sm:w-[230px] absolute sm:-bottom-3 -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex"/> Meets Creativity </h1>
+                        <p className="text-[1.3vw] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400 w-[80%]">Traditional methods meet new and diverse creative to bring an empowering online English experience to your children and family. </p>
                         <button className="sm:w-full lg:text-[18px] sm:text-[13px] sm:py-2 lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px] btn-animation">Get Started</button>
                     </div>
                     <div className="w-full h-auto gap-3 flex">
                         <div className="flex justify-end relative items-end w-[50%] h-auto">
-                            <Image className="w-[auto] -left-5 bottom-2 absolute h-[90%]" src={'/Home/Woman.svg'} width={2000} height={2000} alt="h1" />
+                            <Image className="w-[auto] -left-7 bottom-0 absolute h-[95%]" src={'/Home/Woman.png'} width={2000} height={2000} alt="h1" />
                             <div className="p-5 sm:p-3 rounded-[20px] bg-[#EEEEED] w-[70%] flex flex-col justify-between h-full">
                                 <h1 className="font-bold sm:ml-0 lg:ml-[5vw] lg:text-[4vw] text-[1.5vw]">Best <span className="yellow-text">Teachers</span> Worldwide</h1>
                                 <p className="flex flex-col text-[0.7vw] lg:text-[1.5vw] text-gray-400 w-full justify-end items-end"><span className="font-bold yellow-text lg:text-[4vw] text-[2vw]">21+</span>experts already join us</p>
@@ -23,7 +23,7 @@ const HomePage = () => {
                         </div>
                         <div className="w-[50%] relative h-auto">
                             <Image className="w-[100%] h-auto" src={'/Home/h2.svg'} width={2000} height={2000} alt="h2" />
-                            <p className="text-[1.2vw] sm:text-[2.8vw] lg:text-[3vw] sm:bottom-[2.5vw] font-bold w-[80%] left-3 bottom-6 absolute">Transforming schools <br /> and substitute <br /> teachers</p>
+                            <p className="text-[1.2vw] sm:text-[2.8vw] lg:text-[3vw] sm:bottom-[2.5vw] font-bold w-[80%] left-3 bottom-6 absolute">- 15 MIN FREE, NOW?<br /> <br /></p>
                             <RxArrowTopRight className="text-[4vw] lg:text-[8vw] lg:top-[2.5vw] lg:right-[3.5vw] yellow-text absolute top-[1vw] right-[1.7vw]" />
                         </div>
                     </div>
