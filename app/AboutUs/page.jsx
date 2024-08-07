@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { RxArrowTopRight } from "react-icons/rx";
 import { PiShootingStarFill } from "react-icons/pi";
 import { AiFillStar } from "react-icons/ai";
-import { FaHandPointLeft,FaHandPointRight } from "react-icons/fa";
+import { FaHandPointLeft, FaHandPointRight } from "react-icons/fa";
 
 const AboutUs = () => {
     const facts = [
@@ -113,7 +113,7 @@ const AboutUs = () => {
                     <button className="btn-animation md:hidden md:text-[13px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
                 </div>
                 <div className="w-[50%] md:w-full md:flex md:gap-4 lg:h-auto h-[38vw] rounded-[15px]">
-                    <button className="btn-animation w-[20%] items-center text-center justify-center vertical-text md:flex hidden text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Get Started</button>
+                    <button className="btn-animation hidden md:inline-block w-[20%] items-center text-center justify-center vertical-text text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Get Started</button>
                     <Image className="w-[100%] md:rounded-l-[0px] md:w-[80%] object-cover rounded-[15px] h-full" alt="hero about us" width={500} height={500} src={'/About/h2.svg'} />
                 </div>
             </section>
@@ -181,10 +181,10 @@ const AboutUs = () => {
                                 </div>
                                 <div className="w-full text-white gap-5 justify-end items-end flex h-suto">
                                     <span className="bg-[#f55712] md:p-3 cursor-pointer rounded-full p-5">
-                                        <FaHandPointLeft className="text-[3vw] md:text-[26px]"/>
+                                        <FaHandPointLeft className="text-[3vw] md:text-[26px]" />
                                     </span>
                                     <span className="rounded-full md:p-3 cursor-pointer yellow p-5">
-                                        <FaHandPointRight className="text-[3vw] md:text-[26px]"/>
+                                        <FaHandPointRight className="text-[3vw] md:text-[26px]" />
                                     </span>
                                 </div>
                             </div>

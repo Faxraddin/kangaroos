@@ -48,7 +48,6 @@ img {
 
 /* From Uiverse.io by shah1345 */
 .btn-animation {
-  display: inline-block;
   transition: all 0.2s ease-in;
   position: relative;
   overflow: hidden;
