@@ -35,9 +35,9 @@ const AboutUs = () => {
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
             <section className="w-full sm:mt-5 h-auto gap-10 flex justify-center flex-col items-center">
                 <div className="md:flex-col md:gap-5 md:justify-center w-full gap-10 h-auto flex justify-between items-center">
-                    <p className="md:w-full sm:text-[20px] md:text-[30px] w-[30%] uppercase text-[1.6vw] md:text-center  text-left">Children must <br className="md:hidden" /> learn from <br className="md:hidden" /> native speaksers!</p>
+                    <p className="md:w-full sm:text-[23px] md:text-[30px] w-[30%] uppercase text-[1.6vw] md:text-center  text-left">Children must <br className="md:hidden" /> learn from <br className="md:hidden" /> native speaksers!</p>
                     <Image className="w-[17vw] sm:w-[200px] md:w-[300px] h-auto" alt="hero h1 about us" width={500} height={500} src={'/About/h1.svg'} />
-                    <p className="md:text-[30px] sm:text-[19px] md:w-full w-[30%] text-[1.5vw] md:text-center text-right">The first lesson for children serves as a trial session, and it's completely complimentary!</p>
+                    <p className="md:text-[30px] uppercase sm:text-[13px] sm:text-gray-400 md:w-full w-[30%] text-[1.5vw] md:text-center text-right">The first lesson for children serves as a trial session, and it's completely complimentary!</p>
                 </div>
                 <div className="flex flex-col w-full justify-center items-center h-auto">
                     <h1 className="uppercase md:text-[13vw] text-[12vw]">Kangaroos</h1>
@@ -113,7 +113,7 @@ const AboutUs = () => {
                     <button className="btn-animation md:hidden md:text-[13px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
                 </div>
                 <div className="w-[50%] md:w-full md:flex md:gap-4 lg:h-auto h-[38vw] rounded-[15px]">
-                    <button className="btn-animation w-[15%] items-center text-center justify-center vertical-text md:flex hidden text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Get Started</button>
+                    <button className="btn-animation w-[20%] items-center text-center justify-center vertical-text md:flex hidden text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Get Started</button>
                     <Image className="w-[100%] md:rounded-l-[0px] md:w-[80%] object-cover rounded-[15px] h-full" alt="hero about us" width={500} height={500} src={'/About/h2.svg'} />
                 </div>
             </section>
