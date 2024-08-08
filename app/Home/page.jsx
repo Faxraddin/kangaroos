@@ -100,7 +100,7 @@ const HomePage = () => {
                                 <FaStar/>
                             </div>
                         </div>
-                        <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
+                        <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!</p>
                     </div>
                     <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
@@ -114,7 +114,7 @@ const HomePage = () => {
                                 <FaStar/>
                             </div>
                         </div>
-                        <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
+                        <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">Teacher Hannah is kind, friendly and patient with my twin girls. She is very good at assessing a student's abilities and interests and adjusting her lessons accordingly. She makes the lessons fun and challenging. I would highly recommend her as a teacher.</p>
                     </div>
                     <div className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
@@ -128,7 +128,7 @@ const HomePage = () => {
                                 <FaStar/>
                             </div>
                         </div>
-                        <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">Schools and districts save time and money, so they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference in students' lives. The Swing platform makes it easy for administrators to request subs.</p>
+                        <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">Dear Hannah, Love you so much! You always bring lots of fun to Leo , even sometimes he felt a bit down to take lesson after whole day in school! Leo is becoming very comfortable with the process of the classes and he is showing a lot of improvement!</p>
                     </div>
                 </div>
             </section>
