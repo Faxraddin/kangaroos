@@ -7,9 +7,9 @@ import { FaHeart } from "react-icons/fa";
 
 const HomePage = () => {
     const reviews = [
-        { id: 0, name: 'Leo', text: 'Dear Hannah, Love you so much! You always bring lots of fun to Leo , even sometimes he felt a bit down to take lesson after whole day in school! Leo is becoming very comfortable with the process of the classes and he is showing a lot of improvement!' ,img:''},
-        { id: 0, name: 'Chelsea', text: "Teacher Hannah is kind, friendly and patient with my twin girls. She is very good at assessing a student's abilities and interests and adjusting her lessons accordingly. She makes the lessons fun and challenging. I would highly recommend her as a teacher.",img:'' },
-        { id: 0, name: 'Bella', text: 'Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!',img:'' }
+        { id: 0, name: 'Leo', text: 'Dear Hannah, Love you so much! You always bring lots of fun to Leo , even sometimes he felt a bit down to take lesson after whole day in school! Leo is becoming very comfortable with the process of the classes and he is showing a lot of improvement!' ,img:'Home/r1.svg'},
+        { id: 0, name: 'Chelsea', text: "Teacher Hannah is kind, friendly and patient with my twin girls. She is very good at assessing a student's abilities and interests and adjusting her lessons accordingly. She makes the lessons fun and challenging. I would highly recommend her as a teacher.",img:'Home/r2.svg' },
+        { id: 0, name: 'Bella', text: 'Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!',img:'Home/r3.svg' }
     ]
     return (
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
@@ -96,7 +96,7 @@ const HomePage = () => {
                     {reviews.map((review,index) => {
                         return (
                             <div key={index} className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
-                                <Image className="w-full h-auto" src={'/Home/Review.svg'} width={2000} height={2000} alt="h3" />
+                                <Image className="w-full h-auto" src={`/${review.img}`} width={2000} height={2000} alt="h3" />
                                 <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
                                     <h2 className="font-semibold sm:text-[5vw] 2lg:text-[2vw] text-[1.7vw]">{review.name}</h2>
                                     <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
