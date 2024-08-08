@@ -10,12 +10,29 @@ import { FaHandPointLeft, FaHandPointRight } from "react-icons/fa";
 
 const AboutUs = () => {
     const facts = [
-        { id: 0, fact: '50+ Teachers' },
-        { id: 1, fact: '500+ Students' },
+        { id: 0, fact: 'Kangaroos can swim' },
+        { id: 1, fact: "G'day (Hi, hello, hey)" },
         { id: 2, fact: 'Native Speakers' },
-        { id: 3, fact: '50+ Teachers' },
-        { id: 2, fact: 'Native Speakers' },
-        { id: 3, fact: '50+ Teachers' }
+        { id: 3, fact: 'Dunny (toilet)' },
+        { id: 2, fact: 'Kangaroos are left-handed ' },
+        { id: 3, fact: 'Kangaroos can’t walk backwards.' },
+
+        { id: 4, fact: 'Arvo (afternoon)' },
+        { id: 5, fact: "G'day (Hi, hello, hey)" },
+        { id: 6, fact: 'Native Speakers' },
+        { id: 7, fact: 'Dunny (toilet)' },
+        { id: 8, fact: 'Brekky (breakfast)' },
+        { id: 9, fact: 'Sanger (sandwich) ' },
+
+        { id: 10, fact: 'Sanger (sandwich) ' },
+        { id: 11, fact: "Banger = Sausage" },
+        { id: 12, fact: 'Barbie (Barbeque/gril)' },
+        { id: 13, fact: 'Bathers (Swimming suit)' },
+        { id: 14, fact: 'Fussed (Bothered)' },
+        { id: 15, fact: 'Ta (Thank you)' },
+
+        { id: 16, fact: 'Hard yakka (Hard work)' },
+        { id: 17, fact: 'Ta (Thank you)' }
     ]
 
     const questions = [
@@ -35,12 +52,12 @@ const AboutUs = () => {
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
             <section className="w-full sm:mt-5 h-auto gap-10 flex justify-center flex-col items-center">
                 <div className="md:flex-col md:gap-5 md:justify-center w-full gap-10 h-auto flex justify-between items-center">
-                    <p className="md:w-full sm:text-[23px] md:text-[30px] w-[30%] uppercase text-[1.6vw] md:text-center  text-left">Children must <br className="md:hidden" /> learn from <br className="md:hidden" /> native speaksers!</p>
+                    <p className="md:w-full sm:text-[23px] md:text-[30px] w-[30%] uppercase text-[1.6vw] md:text-center  text-left">Join the online community<br className="md:hidden" />connecting growing the <br className="md:hidden" />world through creativity</p>
                     <Image className="w-[17vw] sm:w-[200px] md:w-[300px] h-auto" alt="hero h1 about us" width={500} height={500} src={'/About/h1.svg'} />
-                    <p className="md:text-[30px] uppercase sm:text-[13px] sm:text-gray-400 md:w-full w-[30%] text-[1.5vw] md:text-center text-right">The first lesson for children serves as a trial session, and it's completely complimentary!</p>
+                    <p className="md:text-[30px] uppercase sm:text-[13px] sm:text-gray-400 md:w-full w-[30%] text-[1.5vw] md:text-center text-right">Children’s creativity sparks imagination, social skills & emotional development</p>
                 </div>
                 <div className="flex flex-col w-full justify-center items-center h-auto">
-                    <h1 className="uppercase md:text-[13vw] text-[12vw]">Kangaroos</h1>
+                    <h1 className="uppercase md:text-[13vw] text-[12vw] text-center">KANGAROOS</h1>
                     <Image className="w-[65%] sm:w-[75%] sm:-top-[9vw] relative -top-[6vw] rounded-[15px] h-auto" alt="hero about us" width={500} height={500} src={'/About/Hero.png'} />
                 </div>
             </section>
@@ -51,24 +68,24 @@ const AboutUs = () => {
                         <div className="slide-track">
                             {facts.map((fact, index) => {
                                 return (
-                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
-                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    <div key={index} className="slide w-max sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] mx-7 uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
                             {facts.map((fact, index) => {
                                 return (
-                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
-                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    <div key={index} className="slide w-max sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] mx-7 uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
                             {facts.map((fact, index) => {
                                 return (
-                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
-                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    <div key={index} className="slide w-max sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] mx-7 uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
@@ -80,24 +97,24 @@ const AboutUs = () => {
                         <div className="slide-track2">
                             {facts.map((fact, index) => {
                                 return (
-                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
-                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    <div key={index} className="slide w-max sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] mx-7 uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
                             {facts.map((fact, index) => {
                                 return (
-                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
-                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    <div key={index} className="slide w-max sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] mx-7 uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
                             {/* Repeat the slides to create the infinite effect */}
                             {facts.map((fact, index) => {
                                 return (
-                                    <div key={index} className="slide w-[15%] sm:w-max sm:mx-5">
-                                        <h1 className="text-[2vw] lg:text-[20px] uppercase">{fact.fact}</h1>
+                                    <div key={index} className="slide w-max sm:w-max sm:mx-5">
+                                        <h1 className="text-[2vw] lg:text-[20px] mx-7 uppercase">{fact.fact}</h1>
                                     </div>
                                 )
                             })}
@@ -107,9 +124,9 @@ const AboutUs = () => {
             </section>
 
             <section className="w-full md:flex-col md:justify-center h-auto flex justify-between items-center">
-                <div className="w-[45%] md:w-full h-[38vw] lg:h-auto flex-col lg:gap-3 pb-3 flex justify-between items-start">
-                    <h1 className="md:text-[30px] text-[4.5vw] Font1">Sign Up for a free lesson now!</h1>
-                    <p className="text-[2vw] md:text-[13px] text-gray-400">start now and see what suits your child the best!</p>
+                <div className="w-[45%] md:w-full h-[38vw] lg:h-auto flex-col lg:gap-3 pb-3 flex justify-center gap-10 items-start">
+                    <h1 className="md:text-[30px] text-[4.5vw] Font1">Try a free class today!</h1>
+                    <p className="text-[2vw] md:text-[13px] text-gray-400">Only an iPad/tablet or laptop needed! (No pre-payments!) </p>
                     <button className="btn-animation md:hidden md:text-[13px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
                 </div>
                 <div className="w-[50%] md:w-full md:flex md:gap-4 lg:h-auto h-[38vw] rounded-[15px]">
@@ -121,7 +138,7 @@ const AboutUs = () => {
             <section className="flex-col sm:gap-1 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
                     <h1 className="font-bold Font1 sm:text-[25px] lg:w-full w-[50%] lg:text-[45px] text-[3.5vw]">FAQ</h1>
-                    <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">When schools and districts have reliable access to substitute teachers and subs have the freedom to choose what and when they teach, more classes are covered and student learning stays on track.</p>
+                    <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">Founded by Australian teachers dedicated to changing the world of online education and multilingualism.</p>
                     <Image src={'/Curve.svg'} alt="curve2" className="w-[10vw] scale-[-1] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute left-[30%] top-[9vw]" width={400} height={400} />
                 </div>
                 <div className="w-full pt-5 sm:pt-0 h-auto flex flex-col justify-center items-center">
@@ -142,25 +159,25 @@ const AboutUs = () => {
             </section>
 
             <section className="flex-col gap-10 sm:gap-5 w-full h-auto flex justify-center items-center">
-                <h1 className="font-bold Font1 sm:text-[25px] uppercase lg:w-full w-[100%] text-center lg:text-[45px] text-[3.5vw]">Why Choose Us ?</h1>
+                <h1 className="font-bold Font1 sm:text-[25px] uppercase lg:w-full w-[100%] text-center lg:text-[45px] text-[3.5vw]">WHAT MAKES US DIFFERENT?</h1>
                 <div className="flex justify-between lg:gap-5 lg:flex-col lg:justify-center items-center w-full h-auto">
                     <div className="w-[30%] sm:p-5 lg:w-[100%] text-white bg-[#f55712] flex rounded-[10px] flex-col justify-center items-center gap-5 h-auto p-10">
                         <PiShootingStarFill className="text-[5vw] lg:text-[42px] sm:text-[36px]" />
-                        <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Comprehensive Growth</h1>
-                        <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"Comprehensive growth encompasses the holistic development"</p>
+                        <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Personalised Structured</h1>
+                        <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"following native and european frameworks, regulations and methods"</p>
                     </div>
                     <div className="w-[30%] lg:gap-3 lg:w-[100%] h-auto justify-center items-center flex flex-col gap-5">
                         <button className="btn-animation py-3 lg:text-[18px] sm:text-[13px] lg:w-full px-20 text-[1.3vw] w-[80%] text-white rounded-t-[20px]">Get Started</button>
                         <div className="text-white sm:p-5 bg-[#fdc110] w-full flex rounded-[10px] flex-col justify-center items-center gap-5 h-auto p-10">
                             <PiShootingStarFill className="text-[5vw] lg:text-[42px] sm:text-[36px]" />
-                            <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Comprehensive Growth</h1>
-                            <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"Comprehensive growth encompasses the holistic development"</p>
+                            <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Communication Tracked Progress</h1>
+                            <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"direct communication with your child's teacher, tracking progress, homework and growth"</p>
                         </div>
                     </div>
                     <div className="w-[30%] lg:w-[100%] sm:p-5 text-white bg-[#6A2985] flex rounded-[10px] flex-col justify-center items-center gap-5 h-auto p-10">
                         <PiShootingStarFill className="text-[5vw] lg:text-[42px] sm:text-[36px]" />
-                        <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Comprehensive Growth</h1>
-                        <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"Comprehensive growth encompasses the holistic development"</p>
+                        <h1 className="uppercase lg:text-[22px] sm:text-[16px] text-[2vw] text-center">Community & Connection </h1>
+                        <p className="text-[1.2vw] lg:text-[18px] sm:text-[13px] w-full text-center">"meet and connect with our students worldwide for fun clubs and events"</p>
                     </div>
                 </div>
             </section>
