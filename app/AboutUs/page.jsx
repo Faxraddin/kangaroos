@@ -137,7 +137,7 @@ const AboutUs = () => {
                     <button className="btn-animation md:hidden md:text-[13px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
                 </div>
                 <div className="w-[50%] md:w-full md:flex md:gap-4 lg:h-auto h-[38vw] rounded-[15px]">
-                    <button className="btn-animation hidden md:inline-block w-[20%] items-center text-center justify-center vertical-text text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Get Started</button>
+                    <button className="btn-animation hidden md:inline-block w-[20%] items-center text-center justify-center vertical-text text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Start</button>
                     <Image className="w-[100%] md:rounded-l-[0px] md:w-[80%] object-cover rounded-[15px] h-full" alt="hero about us" width={500} height={500} src={'/About/h2.svg'} />
                 </div>
             </section>
@@ -153,7 +153,7 @@ const AboutUs = () => {
                         return (
                             <div key={question.id} onClick={() => { setOpened(!opened); setId(question.id) }} className={`flex sm:py-4 sm:gap-2 cursor-pointer flex-col justify-center gap-5 items-center w-full h-auto py-8 border-b`} style={{ borderColor: question.color }}>
                                 <div className="w-full h-auto flex justify-between items-center">
-                                    <h1 className="text-[2vw] sm:w-[80%] w-[90%] sm:text-[20px] lg:text-[25px]">{question.question}</h1>
+                                    <h1 className="text-[2vw] sm:w-[80%] w-[90%] sm:text-[16px] lg:text-[25px]">{question.question}</h1>
                                     <a style={{ background: question.color }} className="rounded-full p-2"><RxArrowTopRight className="text-[3.5vw] sm:text-[20px] lg:text-[28px] text-white" /></a>
                                 </div>
                                 {opened && Id === question.id ?
