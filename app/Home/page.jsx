@@ -7,9 +7,10 @@ import { FaHeart } from "react-icons/fa";
 
 const HomePage = () => {
     const reviews = [
-        { id: 0, name: 'Leo', text: 'Dear Hannah, Love you so much! You always bring lots of fun to Leo , even sometimes he felt a bit down to take lesson after whole day in school! Leo is becoming very comfortable with the process of the classes and he is showing a lot of improvement!' ,img:'Home/r1.svg'},
-        { id: 0, name: 'Chelsea', text: "Teacher Hannah is kind, friendly and patient with my twin girls. She is very good at assessing a student's abilities and interests and adjusting her lessons accordingly. She makes the lessons fun and challenging. I would highly recommend her as a teacher.",img:'Home/r2.svg' },
-        { id: 0, name: 'Bella', text: 'Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!',img:'Home/r3.svg' }
+        { id: 0, name: 'Leo', text: 'Dear Hannah, Love you so much! You always bring lots of fun to Leo , even sometimes he felt a bit down to take lesson after whole day in school! Leo is becoming very comfortable with the process of the classes and he is showing a lot of improvement!', img: 'Home/r1.svg' },
+        { id: 1, name: 'Chelsea', text: "Teacher Hannah is kind, friendly and patient with my twin girls. She is very good at assessing a student's abilities and interests and adjusting her lessons accordingly. She makes the lessons fun and challenging. I would highly recommend her as a teacher.", img: 'Home/r2.svg' },
+        { id: 2, name: 'Bella', text: 'Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!', img: 'Home/r3.svg' },
+        { id: 3, name: 'Bella', text: 'Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!', img: 'Home/r3.svg' }
     ]
     return (
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
@@ -92,25 +93,27 @@ const HomePage = () => {
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">We recently heard from Haining Wei, who started teaching with Swing in the spring of 2022. Below, she shares her story of how she was able to get into the classroom quickly.</p>
                     <Image src={'/Lines.png'} alt="lines" className="w-[15vw] -rotate-12 lg:w-[110px] lg:hidden h-auto absolute right-0 top-[12vw]" width={400} height={400} />
                 </div>
-                <div className="w-full sm:flex-col 2lg:justify-center 2lg:gap-5 2lg:flex-wrap flex h-auto justify-between items-center">
-                    {reviews.map((review,index) => {
-                        return (
-                            <div key={index} className="w-[31%] sm:w-full 2lg:w-[48%] h-auto relative">
-                                <Image className="w-full h-auto" src={`/${review.img}`} width={2000} height={2000} alt="h3" />
-                                <div className="absolute w-auto sm:right-[5vw] sm:top-[5vw] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
-                                    <h2 className="font-semibold sm:text-[5vw] 2lg:text-[2vw] text-[1.7vw]">{review.name}</h2>
-                                    <div className="text-[2vw] sm:gap-[1vw] sm:right-[5vw] sm:text-[7vw] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
-                                        <FaStar />
-                                        <FaStar />
-                                        <FaStar />
-                                        <FaStar />
-                                        <FaStar />
+                <div className="w-full flex h-auto justify-start items-start overflow-x-scroll snap-mandatory snap-x">
+                    <div className="w-auto flex gap-[1vw] h-auto 2lg:justify-center 2lg:gap-5">
+                        {reviews.map((review, index) => {
+                            return (
+                                <div key={index} className="w-[28vw] xs:w-[89vw] sm:w-[330px] snap-start 2lg:w-[40vw] h-auto relative">
+                                    <Image className="w-full h-auto" src={`/${review.img}`} width={2000} height={2000} alt="h3" />
+                                    <div className="absolute w-auto sm:right-[10px] sm:top-[10px] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
+                                        <h2 className="font-semibold sm:text-[23px] 2lg:text-[2vw] text-[1.7vw]">{review.name}</h2>
+                                        <div className="text-[2vw] sm:gap-[5px] sm:right-[10px] sm:text-[20px] 2lg:text-[3vw] yellow-text flex justify-center items-start gap-3">
+                                            <FaStar />
+                                            <FaStar />
+                                            <FaStar />
+                                            <FaStar />
+                                            <FaStar />
+                                        </div>
                                     </div>
+                                    <p className="w-[80%] sm:text-[15px] xs:text-[4vw] sm:left-[10px] sm:bottom-[10px] 2lg:w-[90%] 2lg:text-[1.8vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">{review.text}</p>
                                 </div>
-                                <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[1.8vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">{review.text}</p>
-                            </div>
-                        )
-                    })}
+                            )
+                        })}
+                    </div>
                 </div>
             </section>
 
