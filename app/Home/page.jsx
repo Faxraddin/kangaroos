@@ -22,9 +22,9 @@ const HomePage = () => {
                     </div>
                     <div className="w-full h-auto gap-3 flex">
                         <div className="flex justify-end relative items-end w-[50%] h-auto">
-                            <Image className="w-[auto] -left-7 bottom-0 absolute h-[95%]" src={'/Home/Woman.png'} width={2000} height={2000} alt="h1" />
-                            <div className="p-5 sm:p-3 rounded-[20px] bg-[#EEEEED] w-[70%] flex flex-col justify-between h-full">
-                                <h1 className="font-bold sm:ml-0 lg:ml-[5vw] lg:text-[4vw] text-[1.5vw]">Learn English <span className="yellow-text">like a Native</span> from a Native</h1>
+                            <Image className="w-[auto] sm:hidden -left-7 md:-left-2 bottom-0 absolute h-[95%]" src={'/Home/Woman.png'} width={2000} height={2000} alt="h1" />
+                            <div className="p-5 sm:p-3 sm:w-full rounded-[20px] bg-[#EEEEED] w-[70%] flex flex-col justify-between h-full">
+                                <h1 className="font-bold sm:ml-0 lg:ml-[5vw] sm:text-[4.3vw] lg:text-[3vw] text-[1.5vw]">Learn English <span className="yellow-text">like a Native</span> from a Native</h1>
                                 <p className="flex flex-col text-[0.7vw] lg:text-[1.5vw] text-gray-400 w-full justify-end items-end"><span className="font-bold yellow-text lg:text-[4vw] text-[2vw]">21+</span>experts already join us</p>
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const HomePage = () => {
             </section>
             <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
-                    <h1 className="font-bold sm:text-[25px] lg:w-full w-[50%] Font1 lg:text-[45px] text-[3.5vw]">What Our <span className="relative">Lovely <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 absolute -bottom-4 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex" /> <span className="flex items-center gap-2"> Clients Say <FaHeart className="orange" /></span></h1>
+                    <h1 className="font-bold sm:text-[25px] lg:w-full w-[50%] Font1 lg:text-[45px] text-[3.5vw]">What Our <span className="relative">Lovely <Image alt="underline" width={400} height={400} className="w-[45vw] sm:w-[230px] lg:w-[300px] lg:-bottom-4 sm:-bottom-1 absolute -bottom-4 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex" /> <span className="flex items-center sm:justify-start lg:justify-center gap-2"> Clients Say <FaHeart className="orange" /></span></h1>
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">We recently heard from Haining Wei, who started teaching with Swing in the spring of 2022. Below, she shares her story of how she was able to get into the classroom quickly.</p>
                     <Image src={'/Lines.png'} alt="lines" className="w-[15vw] -rotate-12 lg:w-[110px] lg:hidden h-auto absolute right-0 top-[12vw]" width={400} height={400} />
                 </div>
@@ -107,7 +107,7 @@ const HomePage = () => {
                                         <FaStar />
                                     </div>
                                 </div>
-                                <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[2vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">{review.text}</p>
+                                <p className="w-[80%] sm:text-[4vw] sm:left-[5vw] sm:bottom-[5vw] 2lg:w-[90%] 2lg:text-[1.8vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">{review.text}</p>
                             </div>
                         )
                     })}
