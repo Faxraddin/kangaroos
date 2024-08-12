@@ -12,40 +12,40 @@ const AboutUs = () => {
     const facts = [
         { id: 0, fact: 'Kangaroos can swim' },
         { id: 1, fact: "G'day (Hi, hello, hey)" },
-        { id: 2, fact: 'Native Speakers' },
+        { id: 2, fact: 'Kangaroos can’t walk backwards.' },
         { id: 3, fact: 'Dunny (toilet)' },
-        { id: 2, fact: 'Kangaroos are left-handed ' },
-        { id: 3, fact: 'Kangaroos can’t walk backwards.' },
+        { id: 4, fact: 'Kangaroos are left-handed ' },
 
-        { id: 4, fact: 'Arvo (afternoon)' },
-        { id: 5, fact: "G'day (Hi, hello, hey)" },
-        { id: 6, fact: 'Native Speakers' },
-        { id: 7, fact: 'Dunny (toilet)' },
-        { id: 8, fact: 'Brekky (breakfast)' },
-        { id: 9, fact: 'Sanger (sandwich) ' },
-
+        { id: 5, fact: 'Arvo (afternoon)' },
+        { id: 6, fact: "G'day (Hi, hello, hey)" },
+        { id: 7, fact: 'Native Speakers' },
+        { id: 8, fact: 'Dunny (toilet)' },
+        { id: 9, fact: 'Brekky (breakfast)' },
         { id: 10, fact: 'Sanger (sandwich) ' },
-        { id: 11, fact: "Banger = Sausage" },
-        { id: 12, fact: 'Barbie (Barbeque/gril)' },
-        { id: 13, fact: 'Bathers (Swimming suit)' },
-        { id: 14, fact: 'Fussed (Bothered)' },
-        { id: 15, fact: 'Ta (Thank you)' },
 
-        { id: 16, fact: 'Hard yakka (Hard work)' },
-        { id: 17, fact: 'Ta (Thank you)' }
+        { id: 11, fact: 'Sanger (sandwich) ' },
+        { id: 12, fact: "Banger = Sausage" },
+        { id: 13, fact: 'Barbie (Barbeque/gril)' },
+        { id: 14, fact: 'Bathers (Swimming suit)' },
+        { id: 15, fact: 'Fussed (Bothered)' },
+        { id: 16, fact: 'Ta (Thank you)' },
+
+        { id: 17, fact: 'Hard yakka (Hard work)' },
+        { id: 18, fact: 'Ta (Thank you)' }
     ]
 
     const questions = [
         { id: 0, question: 'How can my child learn English? ', answer: 'It can be difficult knowing where to or how to start your child on their English journey. The best way to start is with phonetics, word bank vocabulary, the alphabet etc. With tons of videos and resources online is the best place to start your child on their English journey. Creative Kangaroos uses a very wide range of resources and materials during lessons that are yours to keep and practice with after each class!', color: '#6A2985' },
         { id: 1, question: 'How long should my child study English a week?', answer: 'Each child is different and depending on their age but a good amount of in lesson study time for a child is around 1-2 hours a week. Creative Kangaroo online English lessons for kids have lesson durations to suit each child!', color: '#f55712' },
         { id: 2, question: 'How can my child practice English after classes?', answer: 'At Creative Kangaroos we know that our students have a very busy schedule and at home practice is not mandatory but it is very strongly recommended. At home practice after lessons is made easy with our online lessons, after every lesson all material is uploaded onto your child’s personal account. Your child can easily go through the material. All lessons are also recorded to re-watch for learning and practice purposes.', color: '#fdc110' },
-        { id: 3, question: 'How long should my child practice after lessons a week?', answer: 'Your child can re-watch the lessons and practice with the lesson material after classes. At Creative Kangaroos we recommended a little bit every day or every second day. An amount of an hour practice a week in total.', color: '#6A2985' },
-        { id: 4, question: 'Will my student be given homework?', answer: ' Students are very busy we are aware, homework at Creative Kangaroos is to practice the material provided. If parents and students request for specific homework to be given, homework is easily uploaded on your child’s personal profile for them to complete comfortably.', color: '#f55712' },
-        { id: 5, question: 'Will my child have material to use at home?', answer: 'Yes! With our online reading program all books are sent to students for them to hold, have write and learn from. Included all material is easily printable for students!', color: '#fdc110' },
-        { id: 6, question: 'My child is very shy, will online learning be difficult for them?', answer: 'Absolutely not! It is very normal for students to be very nervous and shy for their first lessons, in fact most if not all students are. A promise at Creative Kangaroos is that within the first few lessons you will see your child come out of themselves, it is not an overnight transformation but our teachers and program is designed to build confidence and comfortability for children!', color: '#fdc110' },
-        { id: 7, question: 'My child doesn’t know one word of English; how will they understand what is happening in the lesson?', answer: 'This is a very normal concern from parents! Creative Kangaroos online English program is designed for absolute child beginners. Most students at with us start with not knowing a single word. Students do not need to understand, if they did… they would need lessons! We teach with patience, a lot of pictures and kindness. After their first lesson they will have learnt words and they will continue each lesson!', color: '#6A2985' },
-        { id: 8, question: 'Will I need to sit with my student the whole lesson?', answer: 'This depends on your child. We recommended you sit with your child for the first few lessons. Each child is different and some learn better when their parents are not around, some students feel embarrassed to speak in front of their parents and some parents feed their students the answers. We want our children to learn so after a few lessons recommendations will be given! But for young learners parents should always stay close by!', color: '#f55712' },
-        { id: 9, question: 'I’m worried my child won’t be able to concentrate with online lessons… Will this be an issue?', answer: 'A very normal concern however have no worries! Our program and each lesson is packed with material so your child can never be bored! Our students are always focused, concentrated and learning. If there are problems parents are always informed and material and courseware is always changed and focused to make sure students are having fun because that is our main focus, learning through enjoyment!', color: '#fdc110' }
+        { id: 3, question: 'How long should my child practice after lessons a week?', answer: 'Your child can re-watch the lessons and practice with the lesson material after classes. At Creative Kangaroos we recommended a little bit every day or every second day. An amount of an hour practice a week in total.', color: '#2CB5E9' },
+        { id: 4, question: 'Will my student be given homework?', answer: ' Students are very busy we are aware, homework at Creative Kangaroos is to practice the material provided. If parents and students request for specific homework to be given, homework is easily uploaded on your child’s personal profile for them to complete comfortably.', color: '#FE2068' },
+
+        { id: 5, question: 'Will my child have material to use at home?', answer: 'Yes! With our online reading program all books are sent to students for them to hold, have write and learn from. Included all material is easily printable for students!', color: '#6A2985' },
+        { id: 6, question: 'My child is very shy, will online learning be difficult for them?', answer: 'Absolutely not! It is very normal for students to be very nervous and shy for their first lessons, in fact most if not all students are. A promise at Creative Kangaroos is that within the first few lessons you will see your child come out of themselves, it is not an overnight transformation but our teachers and program is designed to build confidence and comfortability for children!', color: '#f55712' },
+        { id: 7, question: 'My child doesn’t know one word of English; how will they understand what is happening in the lesson?', answer: 'This is a very normal concern from parents! Creative Kangaroos online English program is designed for absolute child beginners. Most students at with us start with not knowing a single word. Students do not need to understand, if they did… they would need lessons! We teach with patience, a lot of pictures and kindness. After their first lesson they will have learnt words and they will continue each lesson!', color: '#fdc110' },
+        { id: 8, question: 'Will I need to sit with my student the whole lesson?', answer: 'This depends on your child. We recommended you sit with your child for the first few lessons. Each child is different and some learn better when their parents are not around, some students feel embarrassed to speak in front of their parents and some parents feed their students the answers. We want our children to learn so after a few lessons recommendations will be given! But for young learners parents should always stay close by!', color: '#2CB5E9' },
+        { id: 9, question: 'I’m worried my child won’t be able to concentrate with online lessons… Will this be an issue?', answer: 'A very normal concern however have no worries! Our program and each lesson is packed with material so your child can never be bored! Our students are always focused, concentrated and learning. If there are problems parents are always informed and material and courseware is always changed and focused to make sure students are having fun because that is our main focus, learning through enjoyment!', color: '#FE2068' }
     ]
 
     const [opened, setOpened] = useState(false);

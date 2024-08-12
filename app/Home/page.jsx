@@ -31,7 +31,7 @@ const HomePage = () => {
                         </div>
                         <div className="w-[50%] relative h-auto">
                             <Image className="w-[100%] h-auto" src={'/Home/h2.svg'} width={2000} height={2000} alt="h2" />
-                            <p className="text-[1.2vw] sm:text-[2.8vw] lg:text-[3vw] sm:bottom-[2.5vw] font-bold w-[80%] left-3 bottom-6 absolute">- Online, anywhere, anytime <br /> <br /></p>
+                            <p className="text-[1.2vw] sm:text-[2.8vw] lg:text-[3vw] sm:bottom-[2.5vw] font-bold w-[80%] left-3 bottom-6 absolute"> Online, <br className="lg:hidden"/> anywhere, anytime <br /> <br /></p>
                             <RxArrowTopRight className="text-[4vw] lg:text-[8vw] lg:top-[2.5vw] lg:right-[3.5vw] yellow-text absolute top-[1vw] right-[1.7vw]" />
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const HomePage = () => {
                     <div className="w-[31%] 2lg:w-[48%] h-auto relative">
                         <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
                         <div className="absolute w-full sm:top-[3vw] sm:left-[3vw] flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] sm:text-[3.7vw] w-[90%] text-[2.4vw] font-semibold">- Holistic  <span className="yellow-text">Perspective </span></h1>
+                            <h1 className="text-black 2lg:text-[4vw] sm:text-[3.7vw] w-[90%] text-[2.4vw] font-semibold">Holistic  <span className="yellow-text">Perspective </span></h1>
                             <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[85%] text-gray-400">Supporting cognitive, social & emotional growth by integrating critical thinking, effective communication & emotional well-being</p>
                         </div>
                         <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] yellow-text absolute bottom-[2vw] right-[2vw]" />
