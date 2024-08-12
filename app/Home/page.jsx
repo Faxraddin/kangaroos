@@ -97,7 +97,7 @@ const HomePage = () => {
                     <div className="w-auto flex gap-[1vw] h-auto 2lg:justify-center 2lg:gap-5">
                         {reviews.map((review, index) => {
                             return (
-                                <div key={index} className="w-[28vw] xs:w-[89vw] sm:w-[330px] snap-start 2lg:w-[40vw] h-auto relative">
+                                <div key={index} className="w-[29vw] xs:w-[89vw] sm:w-[330px] snap-start 2lg:w-[40vw] h-auto relative">
                                     <Image className="w-full h-auto" src={`/${review.img}`} width={2000} height={2000} alt="h3" />
                                     <div className="absolute w-auto sm:right-[10px] sm:top-[10px] flex flex-col gap-1 items-end h-auto right-[2vw] top-[1vw]">
                                         <h2 className="font-semibold sm:text-[23px] 2lg:text-[2vw] text-[1.7vw]">{review.name}</h2>
@@ -109,7 +109,7 @@ const HomePage = () => {
                                             <FaStar />
                                         </div>
                                     </div>
-                                    <p className="w-[80%] sm:text-[15px] xs:text-[4vw] sm:left-[10px] sm:bottom-[10px] 2lg:w-[90%] 2lg:text-[1.8vw] text-[1.1vw] font-light absolute bottom-[3vw] left-[2vw]">{review.text}</p>
+                                    <p className="w-[80%] sm:text-[15px] xs:text-[4vw] sm:left-[10px] sm:bottom-[10px] 2lg:w-[90%] 2lg:text-[1.8vw] text-[1.15vw] font-light absolute bottom-[3vw] left-[2vw]">{review.text}</p>
                                 </div>
                             )
                         })}
