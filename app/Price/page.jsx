@@ -2,16 +2,17 @@
 
 import React, { useRef, useEffect } from "react";
 import { IoCheckmarkOutline } from "react-icons/io5";
+import Image from "next/image";
 
 const Price = () => {
   const scrollRef = useRef(null);
 
   const prices = [
-    { id: 0, cost: "$7", duration: "6 months", color: "#6A2985" },
-    { id: 2, cost: "$7", duration: "3 months", color: "#f55712" },
-    { id: 3, cost: "$7", duration: "1 month", color: "#fdc110" },
-    { id: 4, cost: "$7", duration: "2 months", color: "#2CB5E9" },
-    { id: 5, cost: "$7", duration: "12 months", color: "#FE2068" },
+    { id: 0, cost: "$7", duration: "6 months", color: "#6A2985",img:'Price/c1.svg' },
+    { id: 2, cost: "$7", duration: "3 months", color: "#f55712",img:'Price/c2.svg' },
+    { id: 3, cost: "$7", duration: "1 month", color: "#fdc110" ,img:'Price/c3.svg'},
+    { id: 4, cost: "$7", duration: "2 months", color: "#2CB5E9" ,img:'Price/c4.svg'},
+    { id: 5, cost: "$7", duration: "12 months", color: "#FE2068" ,img:'Price/c5.svg'},
   ];
 
   useEffect(() => {
@@ -35,10 +36,11 @@ const Price = () => {
           <div className="w-auto h-auto mx-5 sm:gap-3 lg:gap-5 flex gap-5 justify-center items-center">
             {prices.map((price, index) => (
               <div
-                className="rounded-[20px] sm:w-[250px] lg:p-5 lg:w-[300px] border bg-white p-10 flex flex-col gap-3 justify-center items-center w-[28vw] h-auto scroll-snap-center"
+                className="rounded-[20px] overflow-hidden relative sm:w-[250px] lg:p-5 lg:w-[300px] border bg-white p-10 flex flex-col gap-3 justify-center items-center w-[28vw] h-auto scroll-snap-center"
                 key={index}
                 style={{ borderColor: price.color }}
               >
+                <Image className='w-[13vw] lg:w-[150px] sm:w-[100px] h-auto absolute -top-7 -right-7' height={300} width={300} alt='price' src={`/${price.img}`}/>
                 <h1 className="text-[2vw] lg:text-[20px] font-bold">
                   {price.duration}
                 </h1>
