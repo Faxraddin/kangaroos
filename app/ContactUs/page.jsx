@@ -26,7 +26,7 @@ const ContactUs = () => {
                         {team.map((member, index) => {
                             return (
                                 <div key={index} className="lg:w-[180px] relative p-3 justify-center items-center rounded-[15px] w-[19vw] h-auto">
-                                    <Image className="w-[] rounded-[15px]" src={member.img} alt={member.name} width={300} height={130} />
+                                    <Image className="w-full rounded-[15px]" src={member.img} alt={member.name} width={300} height={130} />
                                     <div className="bg-white sm:gap-0 text-left flex justify-start flex-col items-start gap-1 w-[80%] p-2 left-[10%] rounded-[10px] absolute bottom-[8%]">
                                         <h1 className="text-[1vw] lg:text-[10px] text-center">{member.name}</h1>
                                         <p className="text-[.7vw] lg:text-[7px] text-center">{member.role}</p>
@@ -36,28 +36,40 @@ const ContactUs = () => {
                         })}
                     </div>
                 </div>
-                <div className="w-full h-auto md:flex-col flex justify-between items-center">
-                    <div className="w-[45%] md:w-full flex flex-col gap-10 h-auto">
+                <div className="w-full h-auto lg:gap-7 lg:flex-col flex justify-between items-center">
+                    <div className="w-[45%] lg:gap-7 lg:w-full flex flex-col gap-10 h-auto">
                         <div className="flex w-full flex-col gap-3">
                             <h2 className="text-[1.2vw] lg:text-[16px]">Call us</h2>
                             <p className="text-[.9vw] lg:text-[12px] font-extralight text-gray-500">Call our team anyday!</p>
-                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlinePhoneInTalk className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>+234-123-2321</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlinePhoneInTalk className="text-[1.89vw] sm:text-[20px] lg:text-[23px]" />+234-123-2321</span>
                         </div>
                         <div className="flex w-full flex-col gap-3">
                             <h2 className="text-[1.2vw] lg:text-[16px]">Chat with us</h2>
                             <p className="text-[.9vw] lg:text-[12px] font-extralight text-gray-500">Speak to our friendly team now!</p>
-                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><FaWhatsapp className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>Start a chat</span>
-                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlineAttachEmail className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>Shoot an email</span>
-                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><FaInstagram className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>Message us on Instagram</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><FaWhatsapp className="text-[1.89vw] sm:text-[20px] lg:text-[23px]" />Start a chat</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlineAttachEmail className="text-[1.89vw] sm:text-[20px] lg:text-[23px]" />Shoot an email</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><FaInstagram className="text-[1.89vw] sm:text-[20px] lg:text-[23px]" />Message us on Instagram</span>
                         </div>
                         <div className="flex w-full flex-col gap-3">
                             <h2 className="text-[1.2vw] lg:text-[16px]">Visit us</h2>
                             <p className="text-[.9vw] lg:text-[12px] font-extralight text-gray-500">Chat to us in person!</p>
-                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlineLocationOn className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>100 Smith Street, Collingwood VIC</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlineLocationOn className="text-[1.89vw] sm:text-[20px] lg:text-[23px]" />100 Smith Street, Collingwood VIC</span>
                         </div>
                     </div>
-                    <div className="w-[45%] h-suto">
-
+                    <div className="w-[45%] lg:gap-3 lg:w-full h-suto flex flex-col gap-5">
+                        <label className="flex lg:gap-1 lg:text-[14px] text-[1vw] text-gray-600 flex-col gap-2">
+                            Full name
+                            <input className="w-full border outline-none big:p-7 p-3 rounded-[15px]" type="text" placeholder="Lionel Messi"/>
+                        </label>
+                        <label className="flex lg:gap-1 lg:text-[14px] text-[1vw] text-gray-600 flex-col gap-2">
+                            Email
+                            <input className="w-full border outline-none big:p-7 p-3 rounded-[15px]" type="email" placeholder="you@gmail.com"/>
+                        </label>
+                        <label className="flex lg:gap-1 lg:text-[14px] text-[1vw] text-gray-600 flex-col gap-2">
+                            Message
+                            <textarea className="w-full lg:h-[200px] h-[8vw] big:p-7 resize-none border outline-none p-3 rounded-[15px]" placeholder="Leave us a message here..."></textarea>
+                        </label>
+                        <button className="lg:text-[14px] text-white yellow text-[1vw] rounded-full p-3">Send message</button>
                     </div>
                 </div>
             </section>
