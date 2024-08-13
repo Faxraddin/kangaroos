@@ -36,7 +36,7 @@ const Price = () => {
           <div className="w-auto h-auto mx-5 sm:gap-3 lg:gap-5 flex gap-5 justify-center items-center">
             {prices.map((price, index) => (
               <div
-                className="rounded-[20px] overflow-hidden relative sm:w-[250px] lg:p-5 lg:w-[300px] border-2 sm:border bg-white p-10 flex flex-col gap-3 justify-center items-center w-[28vw] h-auto scroll-snap-center"
+                className="rounded-[20px] hover:shadow-2xl ease-linear duration-150 transition-all overflow-hidden relative sm:w-[250px] lg:p-5 lg:w-[300px] border-2 sm:border bg-white p-10 flex flex-col gap-3 justify-center items-center w-[28vw] h-auto scroll-snap-center"
                 key={index}
                 style={{ borderColor: price.color }}
               >

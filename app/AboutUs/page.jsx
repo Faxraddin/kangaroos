@@ -52,10 +52,12 @@ const AboutUs = () => {
     const [Id, setId] = useState(0);
 
     const teachers = [
-        { id: 0, name: 'Hannah', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'About/T.png', role: 'English Teacher' },
-        { id: 1, name: 'Arthur', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Fedya.svg', role: 'CTO' },
-        { id: 2, name: 'Alejandro', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Alejandro.svg', role: 'COO' },
-        { id: 2, name: 'Maggie', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Maggie.svg', role: 'English Teacher' }
+        { id: 0, name: 'Hannah', text: 'Dream chaser. Honesty, kindness and positivity activist. Adventure seeker. Animal lover.', img: 'Team/Hannah.svg', role: 'CEO & Director of Education' },
+        { id: 1, name: 'Faxraddin Yuzbashev', text: 'Book lover. Sports enthusiast. Movie buff. Animal advocate. Passionate traveler.', img: 'Team/Fedya.svg', role: 'Chief Technology Officer' },
+        { id: 1, name: 'Maggie O’Shaughnessy', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Maggie.svg', role: 'Director of Education & Curriculum' },
+        { id: 2, name: 'Alejandro Cervero', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Alejandro.svg', role: 'Chief Operations Officer' },
+        { id: 3, name: 'Lucia Della Vera', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Lucia.svg', role: 'Creative Director' },
+        { id: 4, name: 'Alessandro Travaglini ', text: 'Passion for innovation and personal growth. Sport and travel addicted', img: 'Team/Alesandro.svg', role: 'Chief Strategy Officer' }
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -163,7 +165,7 @@ const AboutUs = () => {
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-center justify-between gap-10">
                     <h1 className="font-bold Font1 sm:text-[25px] lg:w-full w-[50%] lg:text-[45px] text-[3.5vw]">FAQ</h1>
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">Founded by Australian teachers dedicated to changing the world of online education and multilingualism.</p>
-                    <Image src={'/Curve.svg'} alt="curve2" className="w-[10vw] scale-[-1] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute left-[30%] top-[9vw]" width={400} height={400} />
+                    <Image src={'/Curve.svg'} alt="curve2" className="w-[10vw] scale-[-1] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute left-[28%] top-[7vw]" width={400} height={400} />
                 </div>
                 <div className="w-full pt-5 sm:pt-0 h-auto flex flex-col justify-center items-center">
                     {questions.map((question) => {
@@ -171,7 +173,7 @@ const AboutUs = () => {
                             <div key={question.id} onClick={() => { setOpened(!opened); setId(question.id) }} className={`flex sm:py-4 sm:gap-2 cursor-pointer flex-col justify-center gap-5 items-center w-full h-auto py-8 border-b`} style={{ borderColor: question.color }}>
                                 <div className="w-full h-auto flex justify-between items-center">
                                     <h1 className="text-[2vw] sm:w-[80%] w-[90%] sm:text-[16px] lg:text-[25px]">{question.question}</h1>
-                                    <a style={{ background: question.color }} className="rounded-full p-2"><RxArrowTopRight className="text-[3.5vw] sm:text-[20px] lg:text-[28px] text-white" /></a>
+                                    <a style={{ background: question.color }} className="rounded-full p-2 hover:scale-125 ease-linear duration-200 transition-all"><RxArrowTopRight className="text-[3.5vw] sm:text-[20px] hover:rotate-90 ease-linear transition-all duration-200 lg:text-[28px] text-white" /></a>
                                 </div>
                                 {opened && Id === question.id ?
                                     <p className="w-full text-left text-[1.3vw] lg:text-[18px] sm:text-[12px]">{question.answer}</p>

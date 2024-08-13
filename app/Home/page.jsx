@@ -71,7 +71,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="flex-col sm:gap-5 gap-10 big:gap-20 w-full h-auto flex justify-center items-center">
+            <section className="flex-col sm:gap-0 gap-10 big:gap-20 w-full h-auto flex justify-center items-center">
                 <div className="lg:flex-col sm:gap-3 sm:text-left lg:text-center w-full relative flex items-start justify-between gap-10">
                     <div className="font-bold Font1 sm:flex-wrap sm:text-[25px] lg:flex lg:justify-center sm:justify-start lg:w-full w-[50%] lg:text-[45px] text-[3.5vw]">
                         <div className="flex sm:flex-wrap items-center gap-3">
@@ -79,9 +79,8 @@ const HomePage = () => {
                             <div className="flex sm:flex-wrap items-center gap-3"><span className="flex items-center gap-2">Us ? <RxStarFilled className="yellow-text text-[3vw" /> </span> </div>
                         </div>
                     </div>
-                    <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">We are actively, passionately, creatively paving the way for multi-lingual speakers children worldwide
-                        through native education standards. Shaping the world of online education through experience, understanding and relatability.</p>
-                    <Image src={'/Curve2.svg'} alt="curve3" className="w-[12vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute right-0 top-[11vw]" width={400} height={400} />
+                    <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">We are actively, passionately, creatively paving the way for multi-lingual speakers children worldwide through native education standards. Shaping the world of online education through experience, understanding and relatability.</p>
+                    <Image src={'/Curve2.svg'} alt="curve3" className="w-[12vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-[45%] h-auto absolute right-0 top-[11vw]" width={400} height={400} />
                 </div>
                 <div className="w-full flex h-auto justify-start items-center">
                     <Image className="w-[90%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />

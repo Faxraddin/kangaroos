@@ -8,28 +8,29 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const ContactUs = () => {
     const team = [
-        { id: 0, name: 'Arthur', role: 'CTO', img: 'Team/Fedya.svg' },
-        { id: 0, name: 'Maggie', role: 'Eng teacher', img: 'Team/Maggie.svg' },
-        { id: 0, name: 'Alejandro', role: 'COO', img: 'Team/Alejandro.svg' },
-        { id: 0, name: 'Maggie', role: 'Eng teacher', img: 'Team/Maggie.svg' },
-        { id: 0, name: 'Alejandro', role: 'COO', img: 'Team/Alejandro.svg' }
+        { id: 0, name: 'Faxraddin Yuzbashev ', role: 'Chief Technology Officer ', img: 'Team/Fedya.svg' },
+        { id: 0, name: 'Maggie O’Shaughnessy', role: 'Director of Education & Curriculum', img: 'Team/Maggie.svg' },
+        { id: 0, name: 'Alejandro Cervero', role: 'Chief Operations Officer', img: 'Team/Alejandro.svg' },
+        { id: 0, name: 'Alessandro Travaglini', role: 'Chief Strategy Officer', img: 'Team/Alesandro.svg' },
+        { id: 0, name: 'Hannah', role: 'CEO & Director of Education', img: 'Team/Hannah.svg' },
+        { id: 0, name: 'Lucia Della Vera', role: 'Creative Director', img: 'Team/Lucia.svg' }
     ]
 
     return (
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
-            <section className="w-full flex-col gap-20 lg:gap-10 h-auto flex justify-center items-center">
+            <section className="w-full flex-col gap-20 lg:gap-10 sm:gap-5 h-auto flex justify-center items-center">
                 <h1 className="w-[80%] sm:w-full mt-5 sm:mt-0 sm:text-[23px] lg:text-[30px] text-center text-[3vw]">
                     We've got an entire team dedicated to supporting you and your child
                 </h1>
                 <div className="w-full h-auto justify-center lg:justify-start items-center flex lg:overflow-x-scroll">
-                    <div className="w-auto h-auto justify-center items-center flex">
+                    <div className="w-auto h-auto gap-5 justify-center items-center flex">
                         {team.map((member, index) => {
                             return (
-                                <div key={index} className="lg:w-[180px] relative p-3 justify-center items-center rounded-[15px] w-[19vw] h-auto">
-                                    <Image className="w-full rounded-[15px]" src={member.img} alt={member.name} width={300} height={130} />
-                                    <div className="bg-white sm:gap-0 text-left flex justify-start flex-col items-start gap-1 w-[80%] p-2 left-[10%] rounded-[10px] absolute bottom-[8%]">
-                                        <h1 className="text-[1vw] lg:text-[10px] text-center">{member.name}</h1>
-                                        <p className="text-[.7vw] lg:text-[7px] text-center">{member.role}</p>
+                                <div key={index} className="lg:w-[180px] p-0 sm:w-[210px] relative justify-center items-center rounded-[15px] w-[14.5vw] h-auto">
+                                    <Image className="w-full rounded-[15px] object-top object-cover" src={member.img} alt={member.name} width={300} height={130} />
+                                    <div className="bg-white sm:gap-0 text-left flex justify-start flex-col items-start gap-1 w-[90%] p-2 left-[5%] rounded-[10px] absolute bottom-[5%]">
+                                        <h1 className="text-[.9vw] lg:text-[10px] text-center">{member.name}</h1>
+                                        <p className="text-[.6vw] lg:text-[7px] text-center">{member.role}</p>
                                     </div>
                                 </div>
                             )
@@ -41,7 +42,7 @@ const ContactUs = () => {
                         <div className="flex w-full flex-col gap-3">
                             <h2 className="text-[1.2vw] lg:text-[16px]">Call us</h2>
                             <p className="text-[.9vw] lg:text-[12px] font-extralight text-gray-500">Call our team anyday!</p>
-                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlinePhoneInTalk className="text-[1.89vw] sm:text-[20px] lg:text-[23px]" />+234-123-2321</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlinePhoneInTalk className="text-[1.89vw] sm:text-[20px] lg:text-[23px]" />+39-327-821-4175</span>
                         </div>
                         <div className="flex w-full flex-col gap-3">
                             <h2 className="text-[1.2vw] lg:text-[16px]">Chat with us</h2>
