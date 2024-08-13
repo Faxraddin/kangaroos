@@ -525,3 +525,24 @@ img {
   justify-content: center;
   align-items: center;
 }
+
+/* btn-3D */
+
+.button3d {
+  --button-accent: #2CB5E8;
+  border: none;
+  background: var(--button-accent);
+  box-shadow: 0px 5px 0px 0px
+      color-mix(in oklab, var(--button-accent) 80%, black),
+    0px 5px 0px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+.button3d:active {
+  box-shadow: 0px 0px 0px 0px color-mix(in oklab, var(--button-accent), black),
+    0px 0px 0px 5px black;
+  transform: translateY(5px);
+}

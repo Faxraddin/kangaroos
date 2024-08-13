@@ -36,7 +36,7 @@ const ContactUs = () => {
                         })}
                     </div>
                 </div>
-                <div className="w-full h-auto lg:gap-7 lg:flex-col flex justify-between items-center">
+                <div className="w-full pb-5 h-auto lg:gap-7 lg:flex-col flex justify-between items-center">
                     <div className="w-[45%] lg:gap-7 lg:w-full flex flex-col gap-10 h-auto">
                         <div className="flex w-full flex-col gap-3">
                             <h2 className="text-[1.2vw] lg:text-[16px]">Call us</h2>
@@ -69,7 +69,9 @@ const ContactUs = () => {
                             Message
                             <textarea className="w-full lg:h-[200px] h-[11vw] big:p-7 resize-none border outline-none p-3 rounded-[15px]" placeholder="Leave us a message here..."></textarea>
                         </label>
-                        <button className="lg:text-[14px] text-white bg-[#2CB5E8] text-[1vw] rounded-full p-3">Send message</button>
+                        <div className="h-auto w-full flex justify-center items-center">
+                            <button className="lg:text-[14px] w-[99%] button3d text-white bg-[#2CB5E8] text-[1vw] rounded-full p-3">Send message</button>
+                        </div>
                     </div>
                 </div>
             </section>
