@@ -1,5 +1,10 @@
 import React from "react";
 import Image from "next/image";
+import { MdOutlinePhoneInTalk } from "react-icons/md";
+import { MdOutlineLocationOn } from "react-icons/md";
+import { MdOutlineAttachEmail } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const ContactUs = () => {
     const team = [
@@ -29,6 +34,30 @@ const ContactUs = () => {
                                 </div>
                             )
                         })}
+                    </div>
+                </div>
+                <div className="w-full h-auto md:flex-col flex justify-between items-center">
+                    <div className="w-[45%] md:w-full flex flex-col gap-10 h-auto">
+                        <div className="flex w-full flex-col gap-3">
+                            <h2 className="text-[1.2vw] lg:text-[16px]">Call us</h2>
+                            <p className="text-[.9vw] lg:text-[12px] font-extralight text-gray-500">Call our team anyday!</p>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlinePhoneInTalk className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>+234-123-2321</span>
+                        </div>
+                        <div className="flex w-full flex-col gap-3">
+                            <h2 className="text-[1.2vw] lg:text-[16px]">Chat with us</h2>
+                            <p className="text-[.9vw] lg:text-[12px] font-extralight text-gray-500">Speak to our friendly team now!</p>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><FaWhatsapp className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>Start a chat</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlineAttachEmail className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>Shoot an email</span>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><FaInstagram className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>Message us on Instagram</span>
+                        </div>
+                        <div className="flex w-full flex-col gap-3">
+                            <h2 className="text-[1.2vw] lg:text-[16px]">Visit us</h2>
+                            <p className="text-[.9vw] lg:text-[12px] font-extralight text-gray-500">Chat to us in person!</p>
+                            <span className="flex lg:text-[14px] text-[1.2vw] items-center justify-start gap-2"><MdOutlineLocationOn className="text-[1.89vw] sm:text-[20px] lg:text-[23px]"/>100 Smith Street, Collingwood VIC</span>
+                        </div>
+                    </div>
+                    <div className="w-[45%] h-suto">
+
                     </div>
                 </div>
             </section>
