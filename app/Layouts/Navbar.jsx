@@ -37,7 +37,7 @@ const Navbar = () => {
           <Link className={`${pathname === '/AboutUs' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/AboutUs'}>About Us</Link>
           <Link className={`${pathname === '/Education' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/'}>Education</Link>
           <Link className={`${pathname === '/Price' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/Price'}>Pricing</Link>
-          <Link className={`${pathname === '/ContactUs' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/'}>Contact Us</Link>
+          <Link className={`${pathname === '/ContactUs' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/ContactUs'}>Contact Us</Link>
         </ul>
         <Button className="py-3 px-7 lg:hidden  text-[1vw]" text={'Start Now!'} />
         <div className="w-auto h-auto z-30 hidden rounded-full p-3 sm:bg-transparent yellow lg:flex">

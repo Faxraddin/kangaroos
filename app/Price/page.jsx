@@ -26,17 +26,17 @@ const Price = () => {
   return (
     <div className="Font2 gap-20 lg:gap-5 w-full h-full flex justify-center items-center flex-col px-0">
       <section className="w-full sm:mt-5 sm:gap-5 h-auto gap-10 flex justify-center flex-col items-center">
-        <h1 className="w-full sm:text-[23px] lg:text-[30px] text-center text-[3vw]">
+        <h1 className="w-full mt-5 sm:mt-0 sm:text-[23px] lg:text-[30px] text-center text-[3vw]">
           Best Prices For You!
         </h1>
         <div
           ref={scrollRef}
-          className="w-full flex justify-start items-start overflow-x-scroll"
+          className="w-full flex justify-start scroll-smooth items-start overflow-x-scroll"
         >
           <div className="w-auto h-auto mx-5 sm:gap-3 lg:gap-5 flex gap-5 justify-center items-center">
             {prices.map((price, index) => (
               <div
-                className="rounded-[20px] overflow-hidden relative sm:w-[250px] lg:p-5 lg:w-[300px] border bg-white p-10 flex flex-col gap-3 justify-center items-center w-[28vw] h-auto scroll-snap-center"
+                className="rounded-[20px] overflow-hidden relative sm:w-[250px] lg:p-5 lg:w-[300px] border-2 sm:border bg-white p-10 flex flex-col gap-3 justify-center items-center w-[28vw] h-auto scroll-snap-center"
                 key={index}
                 style={{ borderColor: price.color }}
               >

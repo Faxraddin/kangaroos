@@ -53,8 +53,9 @@ const AboutUs = () => {
 
     const teachers = [
         { id: 0, name: 'Hannah', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'About/T.png', role: 'English Teacher' },
-        { id: 1, name: 'Hannah2', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'About/T.png', role: 'English Teacher' },
-        { id: 2, name: 'Hannah3', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'About/T.png', role: 'English Teacher' }
+        { id: 1, name: 'Arthur', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Fedya.svg', role: 'CTO' },
+        { id: 2, name: 'Alejandro', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Alejandro.svg', role: 'COO' },
+        { id: 2, name: 'Maggie', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Maggie.svg', role: 'English Teacher' }
     ]
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -217,7 +218,7 @@ const AboutUs = () => {
                         >
                             <div className="w-[40%] md:w-full md:h-auto h-[30vw] flex justify-between items-center">
                                 <Image
-                                    className="w-full h-auto object-cover rounded-[10px]"
+                                    className="w-full h-full object-cover rounded-[10px]"
                                     alt="teacher"
                                     src={`/${teacher.img}`}
                                     width={500}
