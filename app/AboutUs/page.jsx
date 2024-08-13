@@ -151,7 +151,7 @@ const AboutUs = () => {
                 <div className="w-[45%] md:w-full h-[38vw] lg:h-auto flex-col lg:gap-3 pb-3 flex justify-center gap-10 items-start">
                     <h1 className="md:text-[30px] text-[4.5vw] Font1">Try a free class today!</h1>
                     <p className="text-[2vw] md:text-[13px] text-gray-400">Only an iPad/tablet or laptop needed! (No pre-payments!) </p>
-                    <button className="btn-animation md:hidden md:text-[13px] sm:px-0 sm:w-full  sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
+                    <button className="btn-animation2 md:hidden md:text-[13px] sm:px-0 sm:w-full sm:text-[13px] lg:py-2 py-3 px-20 text-[1.3vw] text-white rounded-r-[20px] rounded-t-[20px]">Get Started</button>
                 </div>
                 <div className="w-[50%] md:w-full md:flex md:gap-4 lg:h-auto h-[38vw] rounded-[15px]">
                     <button className="btn-animation hidden md:inline-block w-[20%] items-center text-center justify-center vertical-text text-[4vw] sm:px-0 p-2 text-white rounded-l-[20px]">Start</button>

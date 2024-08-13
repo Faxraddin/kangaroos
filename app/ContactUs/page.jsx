@@ -67,9 +67,9 @@ const ContactUs = () => {
                         </label>
                         <label className="flex lg:gap-1 lg:text-[14px] text-[1vw] text-gray-600 flex-col gap-2">
                             Message
-                            <textarea className="w-full lg:h-[200px] h-[8vw] big:p-7 resize-none border outline-none p-3 rounded-[15px]" placeholder="Leave us a message here..."></textarea>
+                            <textarea className="w-full lg:h-[200px] h-[11vw] big:p-7 resize-none border outline-none p-3 rounded-[15px]" placeholder="Leave us a message here..."></textarea>
                         </label>
-                        <button className="lg:text-[14px] text-white yellow text-[1vw] rounded-full p-3">Send message</button>
+                        <button className="lg:text-[14px] text-white bg-[#2CB5E8] text-[1vw] rounded-full p-3">Send message</button>
                     </div>
                 </div>
             </section>
