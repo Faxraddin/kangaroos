@@ -36,31 +36,20 @@ const HomePage = () => {
                     <p className="text-[1.3vw] w-[45%] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400">Curriculum developed by professional and experienced teachers - in traditional schools and online. <span className="underline">Empowering the world’s first online community for children, families and teachers.</span></p>
                     <Image src={'/Curve.svg'} alt="curve2" className="w-[10vw] scale-[-1] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-0 h-auto absolute left-[40%] top-[9vw]" width={400} height={400} />
                 </div>
-                <div className="w-full sm:gap-3 2lg:justify-center 2lg:flex-wrap flex h-auto justify-between items-center">
-                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
-                        <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
-                        <div className="absolute sm:top-[3vw] sm:left-[3vw] w-full flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] sm:text-[3.7vw] text-[2.4vw] font-semibold">Early Years <br /> <span className="flex items-center gap-2"><FaArrowRightLong /> Teens</span></h1>
-                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">Pre A1- C2 - supporting students through an extensive language learning journey</p>
-                        </div>
-                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] yellow-text absolute bottom-[2vw] right-[2vw]" />
+                <div className="w-full relative sm:gap-3 2lg:gap-5 2lg:justify-center 2lg:flex-wrap flex h-auto justify-between items-center">
+                    <div className="w-[31%] md:h-auto md:gap-5 md:w-full 2lg:gap-0 2lg:p-3 2lg:h-[200px] bg-[#FF2069] justify-between items-center gap-5 flex flex-col p-10 text-center text-white rounded-[20px] 2lg:w-[48%] h-[25vw] relative">
+                        <h1 className="text-[2.5vw] sm:text-[25px] 2lg:text-[27px] Font1 font-bold">Early  Years Teens</h1>
+                        <p className="font-semibold sm:text-[13px] 2lg:text-[16px] text-[1.2vw]">Pre A1- C2 - supporting ​students through an extensive ​language learning journey</p>
                     </div>
-                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
-                        <Image className="w-full h-auto" src={'/Home/h4.svg'} width={2000} height={2000} alt="h4" />
-                        <div className="absolute w-full sm:bottom-[3vw] sm:left-[4vw] flex flex-col gap-2 h-auto left-10 bottom-8">
-                            <h1 className="text-black 2lg:text-[4vw] sm:text-[3.7vw] w-[95%] text-[2.4vw] font-semibold">Native language <span className="yellow-text">proficiency</span>  & confidence</h1>
-                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[80%] text-gray-400">In an online learning environment, sustaining academic & personal growth</p>
-                        </div>
-                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:top-[3.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:top-[4.5vw] yellow-text absolute top-[2.5vw] right-[2vw]" />
+                    <div className="w-[31%] md:h-auto md:gap-5 md:w-full 2lg:gap-0 2lg:p-3 2lg:h-[200px] bg-[#2CB5E8] justify-between items-center gap-5 flex flex-col p-10 text-center text-white rounded-[20px] 2lg:w-[48%] h-[25vw] relative">
+                        <h1 className="text-[2.5vw] sm:text-[25px] 2lg:text-[27px] Font1 font-bold">Native ​language <span className="text-[#6A2985]">​proficiency</span> & ​confidence</h1>
+                        <p className="font-semibold sm:text-[13px] 2lg:text-[16px] text-[1.2vw]">Native ​language ​proficiency & ​confidence</p>
                     </div>
-                    <div className="w-[31%] 2lg:w-[48%] h-auto relative">
-                        <Image className="w-full h-auto" src={'/Home/h3.svg'} width={2000} height={2000} alt="h3" />
-                        <div className="absolute w-full sm:top-[3vw] sm:left-[3vw] flex flex-col gap-2 h-auto left-8 top-8">
-                            <h1 className="text-black 2lg:text-[4vw] sm:text-[3.7vw] w-[90%] text-[2.4vw] font-semibold">Holistic  <span className="yellow-text">Perspective </span></h1>
-                            <p className="text-[1.1vw] sm:hidden 2lg:text-[1.5vw] w-[85%] text-gray-400">Supporting cognitive, social & emotional growth by integrating critical thinking, effective communication & emotional well-being</p>
-                        </div>
-                        <RxArrowTopRight className="text-[4vw] 2lg:text-[7vw] 2lg:bottom-[2.5vw] 2lg:right-[2.5vw] md:right-[3vw] md:bottom-[3.5vw] yellow-text absolute bottom-[2vw] right-[2vw]" />
+                    <div className="w-[31%] md:h-auto md:gap-5 md:w-full 2lg:gap-0 2lg:p-3 2lg:h-[200px] h-[25vw] bg-[#6A2985] justify-between items-center gap-5 flex flex-col p-10 text-center text-white rounded-[20px] 2lg:w-[48%] relative">
+                        <h1 className="text-[2.5vw] sm:text-[25px] 2lg:text-[27px] Font1 font-bold">Holistic <span className="text-[#f55712]">​Perspective</span></h1>
+                        <p className="font-semibold md:w-4/5 sm:text-[13px] 2lg:text-[16px] text-[1.2vw]">Supporting cognitive, social & emotional growth by integrating critical thinking, effective communication & emotional well-being</p>
                     </div>
+                    <Image src={'/kan.svg'} alt="kangaroo" className="w-[15vw] md:w-[130px] md:-right-5 2lg:right-0 2lg:bottom-0 absolute h-auto -right-16 -bottom-16" width={400} height={400} />
                 </div>
             </section>
             <section className="flex-col sm:gap-0 gap-10 big:gap-20 w-full h-auto flex justify-center items-center">
