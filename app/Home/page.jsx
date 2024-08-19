@@ -83,7 +83,7 @@ const HomePage = () => {
                     <Image src={'/Curve2.svg'} alt="curve3" className="w-[12vw] lg:-rotate-45 lg:w-[90px] sm:hidden lg:relative lg:top-0 lg:left-[45%] h-auto absolute right-0 top-[11vw]" width={400} height={400} />
                 </div>
                 <div className="w-full flex h-auto justify-start items-center">
-                    <Image className="w-[90%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />
+                    <Image className="w-[70%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/ThirdS.svg'} alt="hero img 2" />
                 </div>
             </section>
             <section className="flex-col sm:gap-5 lg:gap-10 gap-28 big:gap-40 w-full h-auto flex justify-center items-center">
