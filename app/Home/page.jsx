@@ -17,7 +17,9 @@ const HomePage = () => {
             <section className="lg:flex-col w-full h-auto flex justify-between items-center">
                 <div className="lg:w-full lg:gap-5 flex gap-[2.5vw] flex-col h-auto w-1/2">
                     <div className="h-auto lg:w-full sm:text-left sm:items-start sm:justify-start lg:justify-center lg:items-center lg:text-center lg:gap-5 w-full flex-col flex">
-                        <h1 className="font-bold sm:text-[35px] lg:text-[45px] text-[4.4vw]">Where <span className="relative">English <Image alt="underline" width={400} height={400} className="w-[30vw] sm:w-[230px] absolute sm:-bottom-3 -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex" /> Meets Creativity </h1>
+                        <h1 className="font-bold sm:text-[35px] relative lg:text-[45px] text-[4.4vw]">
+                            <Image className="w-auto -z-10 sm:h-full sm:w-auto inset-0 absolute lg:w-full lg:h-auto h-[100%]" src={'/BG.svg'} width={1000} height={1000} alt="bg" />
+                            Where <span className="relative">English <Image alt="underline" width={400} height={400} className="w-[30vw] sm:w-[230px] absolute sm:-bottom-3 -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex" /> Meets Creativity </h1>
                         <p className="text-[1.3vw] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400 w-[80%]">- Traditional methods meet new and diverse creativity to bring an empowering online English experience to your children and family.</p>
                         <button className="sm:w-full lg:text-[18px] sm:text-[13px] sm:py-2 lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px] btn-animation">15 MIN FREE, NOW?</button>
                     </div>
