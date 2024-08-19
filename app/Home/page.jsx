@@ -22,18 +22,8 @@ const HomePage = () => {
                         <button className="sm:w-full lg:text-[18px] sm:text-[13px] sm:py-2 lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px] btn-animation">15 MIN FREE, NOW?</button>
                     </div>
                     <div className="w-full h-auto gap-3 flex">
-                        <div className="flex justify-end relative items-end w-[50%] h-auto">
-                            <Image className="w-[auto] sm:hidden -left-7 md:-left-2 bottom-0 absolute h-[95%]" src={'/Home/Woman.png'} width={2000} height={2000} alt="h1" />
-                            <div className="p-5 sm:p-3 sm:w-full rounded-[20px] bg-[#EEEEED] w-[70%] flex flex-col justify-between h-full">
-                                <h1 className="font-bold sm:ml-0 lg:ml-[5vw] sm:text-[4.3vw] lg:text-[3vw] text-[1.5vw]">Learn English <span className="yellow-text">like a Native</span> from a Native</h1>
-                                <p className="flex flex-col text-[0.7vw] lg:text-[1.5vw] text-gray-400 w-full justify-end items-end"><span className="font-bold yellow-text lg:text-[4vw] text-[2vw]">21+</span>experts already join us</p>
-                            </div>
-                        </div>
-                        <div className="w-[50%] relative h-auto">
-                            <Image className="w-[100%] h-auto" src={'/Home/h2.svg'} width={2000} height={2000} alt="h2" />
-                            <p className="text-[1.2vw] sm:text-[2.8vw] lg:text-[3vw] sm:bottom-[2.5vw] font-bold w-[80%] left-3 bottom-6 absolute"> Online, <br className="lg:hidden"/> anywhere, anytime <br /> <br /></p>
-                            <RxArrowTopRight className="text-[4vw] lg:text-[8vw] lg:top-[2.5vw] lg:right-[3.5vw] yellow-text absolute top-[1vw] right-[1.7vw]" />
-                        </div>
+                        <Image className="w-[50%] h-auto" src={'/Home/h2.svg'} width={2000} height={2000} alt="h1" />
+                        <Image className="w-[45%] h-auto" src={'/Home/h1.svg'} width={2000} height={2000} alt="h2" />
                     </div>
                 </div>
                 <Image className="w-[50%] lg:w-[80%] sm:w-full h-auto" width={1000} height={1000} src={'/Home/Hero.svg'} alt="hero img 1" />
