@@ -8,12 +8,12 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const ContactUs = () => {
     const team = [
-        { id: 0, name: 'Faxraddin Yuzbashev ', role: 'Chief Technology Officer ', img: 'Team/Fedya.svg' },
+        // { id: 0, name: 'Faxraddin Yuzbashev ', role: 'Chief Technology Officer ', img: 'Team/Fedya.svg' },
         { id: 0, name: 'Maggie O’Shaughnessy', role: 'Director of Education & Curriculum', img: 'Team/Maggie.svg' },
-        { id: 0, name: 'Alejandro Cervero', role: 'Chief Operations Officer', img: 'Team/Alejandro.svg' },
-        { id: 0, name: 'Alessandro Travaglini', role: 'Chief Strategy Officer', img: 'Team/Alesandro.svg' },
-        { id: 0, name: 'Hannah', role: 'CEO & Director of Education', img: 'Team/Hannah.svg' },
-        { id: 0, name: 'Lucia Della Vera', role: 'Creative Director', img: 'Team/Lucia.svg' }
+        { id: 1, name: 'Alejandro Cervero', role: 'Chief Operations Officer', img: 'Team/Alejandro.svg' },
+        { id: 2, name: 'Alessandro Travaglini', role: 'Chief Strategy Officer', img: 'Team/Alesandro.svg' },
+        { id: 3, name: 'Hannah', role: 'CEO & Director of Education', img: 'Team/Hannah.svg' },
+        { id: 4, name: 'Lucia Della Vera', role: 'Creative Director', img: 'Team/Lucia.svg' }
     ]
 
     return (

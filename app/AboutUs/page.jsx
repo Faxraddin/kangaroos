@@ -53,7 +53,7 @@ const AboutUs = () => {
 
     const teachers = [
         { id: 0, name: 'Hannah', text: 'Adventure seeker. Honesty, kindness and positivity activist. Animal lover.', img: 'Team/Hannah.svg', role: 'CEO & Director of Education' },
-        { id: 1, name: 'Faxraddin Yuzbashev', text: 'Book lover. Sports enthusiast. Movie buff. Animal advocate. Passionate traveler.', img: 'Team/Fedya.svg', role: 'Chief Technology Officer' },
+        // { id: 1, name: 'Faxraddin Yuzbashev', text: 'Book lover. Sports enthusiast. Movie buff. Animal advocate. Passionate traveler.', img: 'Team/Fedya.svg', role: 'Chief Technology Officer' },
         { id: 1, name: 'Maggie O’Shaughnessy', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Maggie.svg', role: 'Director of Education & Curriculum' },
         { id: 2, name: 'Alejandro Cervero', text: 'Lalsal wedknf ksdlk lakdmlkmd kndçokd sdkmld lkdm, lorem ipsum kdnkskd dcwdc wedfwed', img: 'Team/Alejandro.svg', role: 'Chief Operations Officer' },
         { id: 3, name: 'Lucia Della Vera', text: "Creativity chaser. Animal and music lover. If you're happy doing what you're doing, then nobody can tell you're not successful.", img: 'Team/Lucia.svg', role: 'Creative Director' },
