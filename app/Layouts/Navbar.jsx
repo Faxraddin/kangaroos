@@ -52,7 +52,7 @@ const Navbar = () => {
         </div>
 
         <div className={`${navActive ? 'translate-x-[-5%] overflow-hidden sm:translate-x-[-8%]' : 'translate-x-[100%]'} overflow-hidden w-[110vw] ease-linear duration-300 transition-all h-screen bg-[black] top-0 z-20 fixed`}>
-          <ul className="text-[20px] h-full flex-col overflow-hidden Font2 w-full font-light flex justify-center gap-10 items-center">
+          <ul className="text-[20px] h-full text-[#fdc110] flex-col overflow-hidden Font2 w-full font-light flex justify-center gap-10 items-center">
             <Link className={`${pathname === '/' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/'}>Home</Link>
             <Link className={`${pathname === '/AboutUs' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/AboutUs'}>About Us</Link>
             <Link className={`${pathname === '/Education' ? 'font-bold scale-125' : 'text-gray-400 scale-100'}`} href={'/'}>Education</Link>
