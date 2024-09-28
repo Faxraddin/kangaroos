@@ -1,9 +1,12 @@
+'use client'
+
 import Image from "next/image";
 import React from "react";
 import { RxArrowTopRight, RxStarFilled } from "react-icons/rx";
 import { FaStar } from "react-icons/fa6";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaHeart } from "react-icons/fa";
+import { useRouter } from "next/navigation";
 
 const HomePage = () => {
     const reviews = [
@@ -12,6 +15,7 @@ const HomePage = () => {
         { id: 2, name: 'Bella', text: 'Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!', img: 'Home/r3.svg' },
         { id: 3, name: 'Bella', text: 'Hi Hannah. Thank you very much for taking care of Bella in drama class. She enjoyed all activities, developed her thinking, got a lot of fun in your class. She adapted quickly and smoothly under your training. Thank you again for helping her improve all abilities. Hugs and kisses!', img: 'Home/r3.svg' }
     ]
+    const router = useRouter();
     return (
         <div className="md:px-5 Font2 gap-20 lg:gap-5 lg:px-10 w-full h-full flex justify-center items-center flex-col px-20">
             <section className="lg:flex-col w-full h-auto flex justify-between items-center">
@@ -21,7 +25,7 @@ const HomePage = () => {
                             <Image className="w-auto -z-10 sm:h-full sm:w-auto inset-0 absolute lg:w-full lg:h-auto h-[100%]" src={'/BG.svg'} width={1000} height={1000} alt="bg" />
                             Where <span className="relative">English <Image alt="underline" width={400} height={400} className="w-[30vw] sm:w-[230px] absolute sm:-bottom-3 -bottom-6 right-0 h-auto" src={'/Underline.png'} /></span> <br className="hidden sm:flex" /> Meets Creativity </h1>
                         <p className="text-[1.3vw] lg:w-full lg:text-[18px] sm:text-[13px] text-gray-400 w-[80%]">- Traditional methods meet new and diverse creativity to bring an empowering online English experience to your children and family.</p>
-                        <button className="sm:w-full lg:text-[18px] sm:text-[13px] sm:py-2 lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px] btn-animation">15 MIN FREE, NOW?</button>
+                        <button onClick={()=>router.push('/ContactUs')} className="sm:w-full lg:text-[18px] sm:text-[13px] sm:py-2 lg:mt-0 mt-5 py-3 w-[50%] text-[1.3vw] text-white rounded-l-[20px] rounded-t-[20px] btn-animation">15 MIN FREE, NOW?</button>
                     </div>
                     <div className="w-full h-auto gap-3 flex">
                         <Image className="w-[50%] h-auto" src={'/Home/h2.svg'} width={2000} height={2000} alt="h1" />
